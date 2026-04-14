@@ -1,0 +1,199 @@
+[
+  {
+    "prompt_id": "test.exact_dup.error_recovery.A",
+    "category": "common",
+    "layer": "engine",
+    "content": "If something goes wrong or the patient seems confused, acknowledge the issue calmly. Offer to repeat information or try a different approach. Never make the patient feel at fault."
+  },
+  {
+    "prompt_id": "test.exact_dup.error_recovery.B",
+    "category": "common",
+    "layer": "engine",
+    "content": "If something goes wrong or the patient seems confused, acknowledge the issue calmly. Offer to repeat information or try a different approach. Never make the patient feel at fault."
+  },
+  {
+    "prompt_id": "test.exact_dup.greeting.A",
+    "category": "greeting",
+    "layer": "engine",
+    "content": "Greet the caller warmly. Introduce yourself as {{agent_name}} from {{organisation}}. Ask how you can help them today. Be welcoming and set a positive tone for the rest of the call."
+  },
+  {
+    "prompt_id": "test.exact_dup.greeting.B",
+    "category": "greeting",
+    "layer": "engine",
+    "content": "Greet the caller warmly. Introduce yourself as {{agent_name}} from {{organisation}}. Ask how you can help them today. Be welcoming and set a positive tone for the rest of the call."
+  },
+
+  {
+    "prompt_id": "test.paraphrase.verify_dob.original",
+    "category": "verification",
+    "layer": "engine",
+    "content": "To verify the patient's identity, ask for their date of birth. Accept various formats. Repeat it back to confirm. Do not proceed until verified."
+  },
+  {
+    "prompt_id": "test.paraphrase.verify_dob.rephrased",
+    "category": "verification",
+    "layer": "engine",
+    "content": "Confirm who you are speaking with by requesting the patient's date of birth. They may state it in any format. Echo it back to them for confirmation and hold until they agree it is correct."
+  },
+  {
+    "prompt_id": "test.paraphrase.empathy.original",
+    "category": "empathy",
+    "layer": "engine",
+    "content": "Show empathy and understanding in every response. Acknowledge the patient's feelings before moving to the next task. Use supportive language."
+  },
+  {
+    "prompt_id": "test.paraphrase.empathy.rephrased",
+    "category": "empathy",
+    "layer": "engine",
+    "content": "Always respond with compassion. Before proceeding, validate how the patient is feeling. Choose words that are caring and reassuring throughout the interaction."
+  },
+  {
+    "prompt_id": "test.paraphrase.error.original",
+    "category": "common",
+    "layer": "engine",
+    "content": "When errors occur or confusion arises, remain calm and helpful. Apologise briefly if appropriate. Offer alternatives or ask the patient how they would like to proceed."
+  },
+  {
+    "prompt_id": "test.paraphrase.error.rephrased",
+    "category": "common",
+    "layer": "engine",
+    "content": "If there is a problem or the patient does not understand, keep your composure. Say sorry where it makes sense. Give them options or ask what they prefer to do next."
+  },
+
+  {
+    "prompt_id": "test.typo.verify_dob.clean",
+    "category": "verification",
+    "layer": "engine",
+    "content": "To verify the patient's identity, ask for their date of birth. Accept various formats. Repeat it back to confirm. Do not proceed until verified."
+  },
+  {
+    "prompt_id": "test.typo.verify_dob.typos",
+    "category": "verification",
+    "layer": "engine",
+    "content": "To verifiy the patientt's identty, ask for their date of brith. Acept variuos formates. Repeet it back to confrim. Do not procede until verifed."
+  },
+  {
+    "prompt_id": "test.typo.greeting.clean",
+    "category": "greeting",
+    "layer": "engine",
+    "content": "Greet the caller warmly. Introduce yourself as {{agent_name}} from {{organisation}}. Ask how you can help them today."
+  },
+  {
+    "prompt_id": "test.typo.greeting.typos",
+    "category": "greeting",
+    "layer": "engine",
+    "content": "Greet the callre warmlly. Introduce youself as {{agent_name}} from {{organisatoin}}. Aask how u can help tehm today."
+  },
+  {
+    "prompt_id": "test.typo.empathy.clean",
+    "category": "empathy",
+    "layer": "engine",
+    "content": "Show empathy and understanding in every response. Acknowledge the patient's feelings before moving to the next task."
+  },
+  {
+    "prompt_id": "test.typo.empathy.typos",
+    "category": "empathy",
+    "layer": "engine",
+    "content": "Sho empaty and understaning in evrey responce. Aknowledge the pateint's feeelings befroe movving to the nex task."
+  },
+
+  {
+    "prompt_id": "test.short.greet_1",
+    "category": "greeting",
+    "layer": "engine",
+    "content": "Greet the patient warmly."
+  },
+  {
+    "prompt_id": "test.short.greet_2",
+    "category": "greeting",
+    "layer": "engine",
+    "content": "Welcome the caller with a friendly opener."
+  },
+  {
+    "prompt_id": "test.short.end_call_1",
+    "category": "closing",
+    "layer": "engine",
+    "content": "Close the call politely."
+  },
+  {
+    "prompt_id": "test.short.end_call_2",
+    "category": "closing",
+    "layer": "engine",
+    "content": "End the conversation warmly."
+  },
+  {
+    "prompt_id": "test.short.verify_1",
+    "category": "verification",
+    "layer": "engine",
+    "content": "Verify the patient."
+  },
+  {
+    "prompt_id": "test.short.verify_2",
+    "category": "verification",
+    "layer": "engine",
+    "content": "Confirm identity."
+  },
+  {
+    "prompt_id": "test.short.emergency_1",
+    "category": "emergency",
+    "layer": "engine",
+    "content": "Call 999 immediately."
+  },
+  {
+    "prompt_id": "test.short.emergency_2",
+    "category": "emergency",
+    "layer": "engine",
+    "content": "Escalate to emergency services now."
+  },
+
+  {
+    "prompt_id": "test.vars.booking.lots_of_vars",
+    "category": "appointment",
+    "layer": "engine",
+    "content": "Schedule {{appointment_type}} with {{provider_name}} at {{location}} on {{date}} at {{time}} for {{patient_name}} (DOB: {{dob}}, ID: {{patient_id}}). Confirm: {{confirmation_number}}."
+  },
+  {
+    "prompt_id": "test.vars.booking.few_vars",
+    "category": "appointment",
+    "layer": "engine",
+    "content": "Book an appointment for the patient with their provider. Confirm the date and time and provide them with a confirmation reference."
+  },
+  {
+    "prompt_id": "test.vars.almost_all_vars",
+    "category": "org",
+    "layer": "org",
+    "content": "{{greeting}} {{patient_name}}. {{introduction}}. {{purpose_statement}}. {{compliance_notice}}."
+  },
+  {
+    "prompt_id": "test.vars.no_vars_equivalent",
+    "category": "org",
+    "layer": "org",
+    "content": "Greet the patient by name, introduce yourself, explain the purpose of the call, and deliver any required compliance information."
+  },
+
+  {
+    "prompt_id": "test.false_friend.ask_dob_verify",
+    "category": "verification",
+    "layer": "engine",
+    "content": "Ask for the patient's date of birth to verify their identity before proceeding with any sensitive information."
+  },
+  {
+    "prompt_id": "test.false_friend.ask_dob_form",
+    "category": "form",
+    "layer": "engine",
+    "content": "Ask for the patient's date of birth to pre-populate the registration form. This is for administrative purposes only, not identity verification."
+  },
+  {
+    "prompt_id": "test.false_friend.close_call_summary",
+    "category": "closing",
+    "layer": "engine",
+    "content": "Before ending the call, summarise everything that was discussed and confirm all actions with the patient."
+  },
+  {
+    "prompt_id": "test.false_friend.close_call_abrupt",
+    "category": "closing",
+    "layer": "engine",
+    "content": "If the patient asks to end the call immediately, respect their wish and close politely without a summary."
+  }
+]

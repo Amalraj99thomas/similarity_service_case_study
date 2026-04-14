@@ -1,0 +1,2402 @@
+[
+  {
+    "prompt_id": "escalation.clinical.flag",
+    "cluster_id": 0,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "escalation.clinical.flag",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "escalation.clinical.flag.chain_hop1",
+    "cluster_id": 0,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "escalation.clinical.flag",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "escalation.clinical.flag.chain_hop2",
+    "cluster_id": 0,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "escalation.clinical.flag",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.financial.worry",
+    "cluster_id": 1,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "empathy.financial.worry",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.financial.worry.chain_hop1",
+    "cluster_id": 1,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "empathy.financial.worry",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.financial.worry.chain_hop2",
+    "cluster_id": 1,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "empathy.financial.worry",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.tangent.recovery",
+    "cluster_id": 2,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "common.tangent.recovery",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.tangent.recovery.chain_hop1",
+    "cluster_id": 2,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "common.tangent.recovery",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.tangent.recovery.chain_hop2",
+    "cluster_id": 2,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "common.tangent.recovery",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.communication.adapt_always",
+    "cluster_id": 3,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "directive.communication.adapt_always",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.communication.adapt_always.chain_hop1",
+    "cluster_id": 3,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "directive.communication.adapt_always",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.communication.adapt_always.chain_hop2",
+    "cluster_id": 3,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "directive.communication.adapt_always",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.ethics.no_coercion",
+    "cluster_id": 4,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "directive.ethics.no_coercion",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.ethics.no_coercion.chain_hop1",
+    "cluster_id": 4,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "directive.ethics.no_coercion",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.ethics.no_coercion.chain_hop2",
+    "cluster_id": 4,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "directive.ethics.no_coercion",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "receptionist.opening.wellness_check",
+    "cluster_id": 5,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "receptionist.opening.wellness_check",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "receptionist.opening.wellness_check.chain_hop1",
+    "cluster_id": 5,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "receptionist.opening.wellness_check",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "receptionist.opening.wellness_check.chain_hop2",
+    "cluster_id": 5,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "receptionist.opening.wellness_check",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "verification.name_and_dob",
+    "cluster_id": 6,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "verification.name_and_dob",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "verification.name_and_dob.chain_hop1",
+    "cluster_id": 6,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "verification.name_and_dob",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "verification.name_and_dob.chain_hop2",
+    "cluster_id": 6,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "verification.name_and_dob",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.hours.service_availability",
+    "cluster_id": 7,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "org.hours.service_availability",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.hours.service_availability.chain_hop1",
+    "cluster_id": 7,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "org.hours.service_availability",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.hours.service_availability.chain_hop2",
+    "cluster_id": 7,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "org.hours.service_availability",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.policy.reasonable_adjustments",
+    "cluster_id": 8,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "org.policy.reasonable_adjustments",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.policy.reasonable_adjustments.chain_hop1",
+    "cluster_id": 8,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "org.policy.reasonable_adjustments",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.policy.reasonable_adjustments.chain_hop2",
+    "cluster_id": 8,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "org.policy.reasonable_adjustments",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.formal",
+    "cluster_id": 9,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "os.style.formal",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.formal.chain_hop1",
+    "cluster_id": 9,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "os.style.formal",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.formal.chain_hop2",
+    "cluster_id": 9,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "os.style.formal",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "verification.address_confirmation",
+    "cluster_id": 10,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "verification.address_confirmation",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "verification.address_confirmation.chain_hop1",
+    "cluster_id": 10,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "verification.address_confirmation",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "verification.address_confirmation.chain_hop2",
+    "cluster_id": 10,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "verification.address_confirmation",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.nok_contact",
+    "cluster_id": 11,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "form.field.nok_contact",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.nok_contact.chain_hop1",
+    "cluster_id": 11,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "form.field.nok_contact",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.nok_contact.chain_hop2",
+    "cluster_id": 11,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "form.field.nok_contact",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.opening.context",
+    "cluster_id": 12,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "renewal.opening.context",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.opening.context.chain_hop1",
+    "cluster_id": 12,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "renewal.opening.context",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.opening.context.chain_hop2",
+    "cluster_id": 12,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "renewal.opening.context",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.concern.escalation",
+    "cluster_id": 13,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "cognitive.concern.escalation",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.concern.escalation.chain_hop1",
+    "cluster_id": 13,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "cognitive.concern.escalation",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.concern.escalation.chain_hop2",
+    "cluster_id": 13,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "cognitive.concern.escalation",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.best_interests.principle",
+    "cluster_id": 14,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "common.best_interests.principle",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.best_interests.principle.chain_hop1",
+    "cluster_id": 14,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "common.best_interests.principle",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.best_interests.principle.chain_hop2",
+    "cluster_id": 14,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "common.best_interests.principle",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.proxy_consent",
+    "cluster_id": 15,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "form.field.proxy_consent",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.proxy_consent.chain_hop1",
+    "cluster_id": 15,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "form.field.proxy_consent",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.proxy_consent.chain_hop2",
+    "cluster_id": 15,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "form.field.proxy_consent",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.financial.check",
+    "cluster_id": 16,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "social.financial.check",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.financial.check.chain_hop1",
+    "cluster_id": 16,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "social.financial.check",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.financial.check.chain_hop2",
+    "cluster_id": 16,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "social.financial.check",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.informal",
+    "cluster_id": 17,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "os.style.informal",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.informal.chain_hop1",
+    "cluster_id": 17,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "os.style.informal",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.informal.chain_hop2",
+    "cluster_id": 17,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "os.style.informal",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "care_plan.respite.needs",
+    "cluster_id": 18,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "care_plan.respite.needs",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "care_plan.respite.needs.chain_hop1",
+    "cluster_id": 18,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "care_plan.respite.needs",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "care_plan.respite.needs.chain_hop2",
+    "cluster_id": 18,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "care_plan.respite.needs",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.values.compassion",
+    "cluster_id": 19,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "org.values.compassion",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.values.compassion.chain_hop1",
+    "cluster_id": 19,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "org.values.compassion",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "org.values.compassion.chain_hop2",
+    "cluster_id": 19,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "org.values.compassion",
+    "should_cluster": true,
+    "chain_type": "2-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pharmacy.interactions.flag",
+    "cluster_id": 20,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "pharmacy.interactions.flag",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pharmacy.interactions.flag.chain_hop1",
+    "cluster_id": 20,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "pharmacy.interactions.flag",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pharmacy.interactions.flag.chain_hop2",
+    "cluster_id": 20,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "pharmacy.interactions.flag",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pharmacy.interactions.flag.chain_hop3",
+    "cluster_id": 20,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "pharmacy.interactions.flag",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.checkup.annual",
+    "cluster_id": 21,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "reminder.checkup.annual",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.checkup.annual.chain_hop1",
+    "cluster_id": 21,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "reminder.checkup.annual",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.checkup.annual.chain_hop2",
+    "cluster_id": 21,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "reminder.checkup.annual",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.checkup.annual.chain_hop3",
+    "cluster_id": 21,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "reminder.checkup.annual",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.hospital_visits",
+    "cluster_id": 22,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "survey.question.hospital_visits",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.hospital_visits.chain_hop1",
+    "cluster_id": 22,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "survey.question.hospital_visits",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.hospital_visits.chain_hop2",
+    "cluster_id": 22,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "survey.question.hospital_visits",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.hospital_visits.chain_hop3",
+    "cluster_id": 22,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "survey.question.hospital_visits",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.demeanour.non_judgmental",
+    "cluster_id": 23,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "os.demeanour.non_judgmental",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.demeanour.non_judgmental.chain_hop1",
+    "cluster_id": 23,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "os.demeanour.non_judgmental",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.demeanour.non_judgmental.chain_hop2",
+    "cluster_id": 23,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "os.demeanour.non_judgmental",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.demeanour.non_judgmental.chain_hop3",
+    "cluster_id": 23,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "os.demeanour.non_judgmental",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension",
+    "cluster_id": 24,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "health_check.chronic.hypertension",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension.chain_hop1",
+    "cluster_id": 24,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "health_check.chronic.hypertension",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension.chain_hop2",
+    "cluster_id": 24,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "health_check.chronic.hypertension",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension.chain_hop3",
+    "cluster_id": 24,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "health_check.chronic.hypertension",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.referral.acknowledge",
+    "cluster_id": 25,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "common.referral.acknowledge",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.referral.acknowledge.chain_hop1",
+    "cluster_id": 25,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "common.referral.acknowledge",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.referral.acknowledge.chain_hop2",
+    "cluster_id": 25,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "common.referral.acknowledge",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.referral.acknowledge.chain_hop3",
+    "cluster_id": 25,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "common.referral.acknowledge",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.record.accuracy_is_safety",
+    "cluster_id": 26,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "directive.record.accuracy_is_safety",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.record.accuracy_is_safety.chain_hop1",
+    "cluster_id": 26,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "directive.record.accuracy_is_safety",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.record.accuracy_is_safety.chain_hop2",
+    "cluster_id": 26,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "directive.record.accuracy_is_safety",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.record.accuracy_is_safety.chain_hop3",
+    "cluster_id": 26,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "directive.record.accuracy_is_safety",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "insurance.renewal.eligibility_verify",
+    "cluster_id": 27,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "insurance.renewal.eligibility_verify",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "insurance.renewal.eligibility_verify.chain_hop1",
+    "cluster_id": 27,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "insurance.renewal.eligibility_verify",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "insurance.renewal.eligibility_verify.chain_hop2",
+    "cluster_id": 27,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "insurance.renewal.eligibility_verify",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "insurance.renewal.eligibility_verify.chain_hop3",
+    "cluster_id": 27,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "insurance.renewal.eligibility_verify",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.patient.autonomy",
+    "cluster_id": 28,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "directive.patient.autonomy",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.patient.autonomy.chain_hop1",
+    "cluster_id": 28,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "directive.patient.autonomy",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.patient.autonomy.chain_hop2",
+    "cluster_id": 28,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "directive.patient.autonomy",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "directive.patient.autonomy.chain_hop3",
+    "cluster_id": 28,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "directive.patient.autonomy",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.loneliness.response",
+    "cluster_id": 29,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "empathy.loneliness.response",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.loneliness.response.chain_hop1",
+    "cluster_id": 29,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "empathy.loneliness.response",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.loneliness.response.chain_hop2",
+    "cluster_id": 29,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "empathy.loneliness.response",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "empathy.loneliness.response.chain_hop3",
+    "cluster_id": 29,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "empathy.loneliness.response",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "medication.reconciliation.post_hospital",
+    "cluster_id": 30,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "medication.reconciliation.post_hospital",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "medication.reconciliation.post_hospital.chain_hop1",
+    "cluster_id": 30,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "medication.reconciliation.post_hospital",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "medication.reconciliation.post_hospital.chain_hop2",
+    "cluster_id": 30,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "medication.reconciliation.post_hospital",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "medication.reconciliation.post_hospital.chain_hop3",
+    "cluster_id": 30,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "medication.reconciliation.post_hospital",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.change.address",
+    "cluster_id": 31,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "renewal.change.address",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.change.address.chain_hop1",
+    "cluster_id": 31,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "renewal.change.address",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.change.address.chain_hop2",
+    "cluster_id": 31,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "renewal.change.address",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "renewal.change.address.chain_hop3",
+    "cluster_id": 31,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "renewal.change.address",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pain.breakthrough.management",
+    "cluster_id": 32,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "pain.breakthrough.management",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pain.breakthrough.management.chain_hop1",
+    "cluster_id": 32,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "pain.breakthrough.management",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pain.breakthrough.management.chain_hop2",
+    "cluster_id": 32,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "pain.breakthrough.management",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "pain.breakthrough.management.chain_hop3",
+    "cluster_id": 32,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "pain.breakthrough.management",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "closing.gratitude.sincere",
+    "cluster_id": 33,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "closing.gratitude.sincere",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "closing.gratitude.sincere.chain_hop1",
+    "cluster_id": 33,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "closing.gratitude.sincere",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "closing.gratitude.sincere.chain_hop2",
+    "cluster_id": 33,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "closing.gratitude.sincere",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "closing.gratitude.sincere.chain_hop3",
+    "cluster_id": 33,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "closing.gratitude.sincere",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.technical_issue.handling",
+    "cluster_id": 34,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "common.technical_issue.handling",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.technical_issue.handling.chain_hop1",
+    "cluster_id": 34,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "common.technical_issue.handling",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.technical_issue.handling.chain_hop2",
+    "cluster_id": 34,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "common.technical_issue.handling",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.technical_issue.handling.chain_hop3",
+    "cluster_id": 34,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "common.technical_issue.handling",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.handoff.to_supervisor",
+    "cluster_id": 35,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "team.handoff.to_supervisor",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.handoff.to_supervisor.chain_hop1",
+    "cluster_id": 35,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "team.handoff.to_supervisor",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.handoff.to_supervisor.chain_hop2",
+    "cluster_id": 35,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "team.handoff.to_supervisor",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.handoff.to_supervisor.chain_hop3",
+    "cluster_id": 35,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "team.handoff.to_supervisor",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.assessment.general",
+    "cluster_id": 36,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "nutrition.assessment.general",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.assessment.general.chain_hop1",
+    "cluster_id": 36,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "nutrition.assessment.general",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.assessment.general.chain_hop2",
+    "cluster_id": 36,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "nutrition.assessment.general",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.assessment.general.chain_hop3",
+    "cluster_id": 36,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "nutrition.assessment.general",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "context.service.disruption",
+    "cluster_id": 37,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "context.service.disruption",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "context.service.disruption.chain_hop1",
+    "cluster_id": 37,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "context.service.disruption",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "context.service.disruption.chain_hop2",
+    "cluster_id": 37,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "context.service.disruption",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "context.service.disruption.chain_hop3",
+    "cluster_id": 37,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "context.service.disruption",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "transition.returning_home.from_rehab",
+    "cluster_id": 38,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "transition.returning_home.from_rehab",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "transition.returning_home.from_rehab.chain_hop1",
+    "cluster_id": 38,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "transition.returning_home.from_rehab",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "transition.returning_home.from_rehab.chain_hop2",
+    "cluster_id": 38,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "transition.returning_home.from_rehab",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "transition.returning_home.from_rehab.chain_hop3",
+    "cluster_id": 38,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "transition.returning_home.from_rehab",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "documentation.consent.recorded",
+    "cluster_id": 39,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "documentation.consent.recorded",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "documentation.consent.recorded.chain_hop1",
+    "cluster_id": 39,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "documentation.consent.recorded",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "documentation.consent.recorded.chain_hop2",
+    "cluster_id": 39,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "documentation.consent.recorded",
+    "should_cluster": true,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "documentation.consent.recorded.chain_hop3",
+    "cluster_id": 39,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "documentation.consent.recorded",
+    "should_cluster": false,
+    "chain_type": "3-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.social_connection",
+    "cluster_id": 40,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "wellness.check.social_connection",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.social_connection.chain_hop1",
+    "cluster_id": 40,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "wellness.check.social_connection",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.social_connection.chain_hop2",
+    "cluster_id": 40,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "wellness.check.social_connection",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.social_connection.chain_hop3",
+    "cluster_id": 40,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "wellness.check.social_connection",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.social_connection.chain_hop4",
+    "cluster_id": 40,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "wellness.check.social_connection",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "os.style.clear_language",
+    "cluster_id": 41,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "os.style.clear_language",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.clear_language.chain_hop1",
+    "cluster_id": 41,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "os.style.clear_language",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.clear_language.chain_hop2",
+    "cluster_id": 41,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "os.style.clear_language",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.clear_language.chain_hop3",
+    "cluster_id": 41,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "os.style.clear_language",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.clear_language.chain_hop4",
+    "cluster_id": 41,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "os.style.clear_language",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "followup.non_engagement.sensitive",
+    "cluster_id": 42,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "followup.non_engagement.sensitive",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "followup.non_engagement.sensitive.chain_hop1",
+    "cluster_id": 42,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "followup.non_engagement.sensitive",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "followup.non_engagement.sensitive.chain_hop2",
+    "cluster_id": 42,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "followup.non_engagement.sensitive",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "followup.non_engagement.sensitive.chain_hop3",
+    "cluster_id": 42,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "followup.non_engagement.sensitive",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "followup.non_engagement.sensitive.chain_hop4",
+    "cluster_id": 42,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "followup.non_engagement.sensitive",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk",
+    "cluster_id": 43,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "survey.question.living_alone_risk",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.chain_hop1",
+    "cluster_id": 43,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "survey.question.living_alone_risk",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.chain_hop2",
+    "cluster_id": 43,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "survey.question.living_alone_risk",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.chain_hop3",
+    "cluster_id": 43,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "survey.question.living_alone_risk",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.chain_hop4",
+    "cluster_id": 43,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "survey.question.living_alone_risk",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "cognitive.daily_tasks.check",
+    "cluster_id": 44,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "cognitive.daily_tasks.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.daily_tasks.check.chain_hop1",
+    "cluster_id": 44,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "cognitive.daily_tasks.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.daily_tasks.check.chain_hop2",
+    "cluster_id": 44,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "cognitive.daily_tasks.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.daily_tasks.check.chain_hop3",
+    "cluster_id": 44,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "cognitive.daily_tasks.check",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "cognitive.daily_tasks.check.chain_hop4",
+    "cluster_id": 44,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "cognitive.daily_tasks.check",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning",
+    "cluster_id": 45,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "wellness.check.purpose_meaning",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning.chain_hop1",
+    "cluster_id": 45,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "wellness.check.purpose_meaning",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning.chain_hop2",
+    "cluster_id": 45,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "wellness.check.purpose_meaning",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning.chain_hop3",
+    "cluster_id": 45,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "wellness.check.purpose_meaning",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning.chain_hop4",
+    "cluster_id": 45,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "wellness.check.purpose_meaning",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "team.training.role_play",
+    "cluster_id": 46,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "team.training.role_play",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.training.role_play.chain_hop1",
+    "cluster_id": 46,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "team.training.role_play",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.training.role_play.chain_hop2",
+    "cluster_id": 46,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "team.training.role_play",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.training.role_play.chain_hop3",
+    "cluster_id": 46,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "team.training.role_play",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "team.training.role_play.chain_hop4",
+    "cluster_id": 46,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "team.training.role_play",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "nutrition.hydration.detail",
+    "cluster_id": 47,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "nutrition.hydration.detail",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.hydration.detail.chain_hop1",
+    "cluster_id": 47,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "nutrition.hydration.detail",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.hydration.detail.chain_hop2",
+    "cluster_id": 47,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "nutrition.hydration.detail",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.hydration.detail.chain_hop3",
+    "cluster_id": 47,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "nutrition.hydration.detail",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.hydration.detail.chain_hop4",
+    "cluster_id": 47,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "nutrition.hydration.detail",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "appointment.transport.check",
+    "cluster_id": 48,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "appointment.transport.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "appointment.transport.check.chain_hop1",
+    "cluster_id": 48,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "appointment.transport.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "appointment.transport.check.chain_hop2",
+    "cluster_id": 48,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "appointment.transport.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "appointment.transport.check.chain_hop3",
+    "cluster_id": 48,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "appointment.transport.check",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "appointment.transport.check.chain_hop4",
+    "cluster_id": 48,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "appointment.transport.check",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "form.field.date_of_birth",
+    "cluster_id": 49,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "form.field.date_of_birth",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.date_of_birth.chain_hop1",
+    "cluster_id": 49,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "form.field.date_of_birth",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.date_of_birth.chain_hop2",
+    "cluster_id": 49,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "form.field.date_of_birth",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.date_of_birth.chain_hop3",
+    "cluster_id": 49,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "form.field.date_of_birth",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "form.field.date_of_birth.chain_hop4",
+    "cluster_id": 49,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "form.field.date_of_birth",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "greeting.first_contact",
+    "cluster_id": 50,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "greeting.first_contact",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "greeting.first_contact.chain_hop1",
+    "cluster_id": 50,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "greeting.first_contact",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "greeting.first_contact.chain_hop2",
+    "cluster_id": 50,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "greeting.first_contact",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "greeting.first_contact.chain_hop3",
+    "cluster_id": 50,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "greeting.first_contact",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "greeting.first_contact.chain_hop4",
+    "cluster_id": 50,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "greeting.first_contact",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "consent.third_party.sharing",
+    "cluster_id": 51,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "consent.third_party.sharing",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "consent.third_party.sharing.chain_hop1",
+    "cluster_id": 51,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "consent.third_party.sharing",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "consent.third_party.sharing.chain_hop2",
+    "cluster_id": 51,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "consent.third_party.sharing",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "consent.third_party.sharing.chain_hop3",
+    "cluster_id": 51,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "consent.third_party.sharing",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "consent.third_party.sharing.chain_hop4",
+    "cluster_id": 51,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "consent.third_party.sharing",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "survey.question.yesno",
+    "cluster_id": 52,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "survey.question.yesno",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.yesno.chain_hop1",
+    "cluster_id": 52,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "survey.question.yesno",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.yesno.chain_hop2",
+    "cluster_id": 52,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "survey.question.yesno",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.yesno.chain_hop3",
+    "cluster_id": 52,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "survey.question.yesno",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "survey.question.yesno.chain_hop4",
+    "cluster_id": 52,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "survey.question.yesno",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "reminder.vaccination.due",
+    "cluster_id": 53,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "reminder.vaccination.due",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.vaccination.due.chain_hop1",
+    "cluster_id": 53,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "reminder.vaccination.due",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.vaccination.due.chain_hop2",
+    "cluster_id": 53,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "reminder.vaccination.due",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.vaccination.due.chain_hop3",
+    "cluster_id": 53,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "reminder.vaccination.due",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "reminder.vaccination.due.chain_hop4",
+    "cluster_id": 53,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "reminder.vaccination.due",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "common.distress.response",
+    "cluster_id": 54,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "common.distress.response",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.distress.response.chain_hop1",
+    "cluster_id": 54,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "common.distress.response",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.distress.response.chain_hop2",
+    "cluster_id": 54,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "common.distress.response",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.distress.response.chain_hop3",
+    "cluster_id": 54,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "common.distress.response",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "common.distress.response.chain_hop4",
+    "cluster_id": 54,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "common.distress.response",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "emergency.detection.breathing",
+    "cluster_id": 55,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "emergency.detection.breathing",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "emergency.detection.breathing.chain_hop1",
+    "cluster_id": 55,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "emergency.detection.breathing",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "emergency.detection.breathing.chain_hop2",
+    "cluster_id": 55,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "emergency.detection.breathing",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "emergency.detection.breathing.chain_hop3",
+    "cluster_id": 55,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "emergency.detection.breathing",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "emergency.detection.breathing.chain_hop4",
+    "cluster_id": 55,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "emergency.detection.breathing",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen",
+    "cluster_id": 56,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "nutrition.malnutrition.screen",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen.chain_hop1",
+    "cluster_id": 56,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "nutrition.malnutrition.screen",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen.chain_hop2",
+    "cluster_id": 56,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "nutrition.malnutrition.screen",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen.chain_hop3",
+    "cluster_id": 56,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "nutrition.malnutrition.screen",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen.chain_hop4",
+    "cluster_id": 56,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "nutrition.malnutrition.screen",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "social.carer.identification",
+    "cluster_id": 57,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "social.carer.identification",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.carer.identification.chain_hop1",
+    "cluster_id": 57,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "social.carer.identification",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.carer.identification.chain_hop2",
+    "cluster_id": 57,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "social.carer.identification",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.carer.identification.chain_hop3",
+    "cluster_id": 57,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "social.carer.identification",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "social.carer.identification.chain_hop4",
+    "cluster_id": 57,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "social.carer.identification",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "os.style.encouraging",
+    "cluster_id": 58,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "os.style.encouraging",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.encouraging.chain_hop1",
+    "cluster_id": 58,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "os.style.encouraging",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.encouraging.chain_hop2",
+    "cluster_id": 58,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "os.style.encouraging",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.encouraging.chain_hop3",
+    "cluster_id": 58,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "os.style.encouraging",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "os.style.encouraging.chain_hop4",
+    "cluster_id": 58,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "os.style.encouraging",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  },
+  {
+    "prompt_id": "fall_prevention.footwear.check",
+    "cluster_id": 59,
+    "chain_position": 0,
+    "hop_label": "original",
+    "original_id": "fall_prevention.footwear.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "fall_prevention.footwear.check.chain_hop1",
+    "cluster_id": 59,
+    "chain_position": 1,
+    "hop_label": "hop1",
+    "original_id": "fall_prevention.footwear.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "fall_prevention.footwear.check.chain_hop2",
+    "cluster_id": 59,
+    "chain_position": 2,
+    "hop_label": "hop2",
+    "original_id": "fall_prevention.footwear.check",
+    "should_cluster": true,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "fall_prevention.footwear.check.chain_hop3",
+    "cluster_id": 59,
+    "chain_position": 3,
+    "hop_label": "hop3",
+    "original_id": "fall_prevention.footwear.check",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": false
+  },
+  {
+    "prompt_id": "fall_prevention.footwear.check.chain_hop4",
+    "cluster_id": 59,
+    "chain_position": 4,
+    "hop_label": "hop4",
+    "original_id": "fall_prevention.footwear.check",
+    "should_cluster": false,
+    "chain_type": "4-hop",
+    "bridge_risk": true
+  }
+]

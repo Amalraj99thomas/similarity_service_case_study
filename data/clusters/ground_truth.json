@@ -1,0 +1,6058 @@
+[
+  {
+    "prompt_id": "survey.question.base",
+    "cluster_id": 0,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.base"
+  },
+  {
+    "prompt_id": "survey.question.with_options",
+    "cluster_id": 1,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.with_options"
+  },
+  {
+    "prompt_id": "survey.question.scale",
+    "cluster_id": 2,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.scale"
+  },
+  {
+    "prompt_id": "survey.question.yesno",
+    "cluster_id": 3,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.yesno"
+  },
+  {
+    "prompt_id": "survey.question.open_ended",
+    "cluster_id": 4,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.open_ended"
+  },
+  {
+    "prompt_id": "survey.question.frequency",
+    "cluster_id": 5,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.frequency"
+  },
+  {
+    "prompt_id": "survey.question.followup",
+    "cluster_id": 6,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.followup"
+  },
+  {
+    "prompt_id": "survey.question.pain_location",
+    "cluster_id": 7,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.pain_location"
+  },
+  {
+    "prompt_id": "survey.question.duration",
+    "cluster_id": 8,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.duration"
+  },
+  {
+    "prompt_id": "survey.question.impact",
+    "cluster_id": 9,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.impact"
+  },
+  {
+    "prompt_id": "survey.question.change",
+    "cluster_id": 10,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.change"
+  },
+  {
+    "prompt_id": "survey.question.medication_adherence",
+    "cluster_id": 11,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.medication_adherence"
+  },
+  {
+    "prompt_id": "survey.question.side_effects",
+    "cluster_id": 12,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.side_effects"
+  },
+  {
+    "prompt_id": "survey.question.mood",
+    "cluster_id": 13,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.mood"
+  },
+  {
+    "prompt_id": "survey.question.sleep",
+    "cluster_id": 14,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.sleep"
+  },
+  {
+    "prompt_id": "survey.question.appetite",
+    "cluster_id": 15,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.appetite"
+  },
+  {
+    "prompt_id": "survey.question.mobility",
+    "cluster_id": 16,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.mobility"
+  },
+  {
+    "prompt_id": "survey.question.social",
+    "cluster_id": 17,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.social"
+  },
+  {
+    "prompt_id": "survey.question.support_network",
+    "cluster_id": 18,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.support_network"
+  },
+  {
+    "prompt_id": "survey.question.concerns",
+    "cluster_id": 19,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.concerns"
+  },
+  {
+    "prompt_id": "form.field.prompt",
+    "cluster_id": 20,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.prompt"
+  },
+  {
+    "prompt_id": "form.field.date_of_birth",
+    "cluster_id": 21,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.date_of_birth"
+  },
+  {
+    "prompt_id": "form.field.full_name",
+    "cluster_id": 22,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.full_name"
+  },
+  {
+    "prompt_id": "form.field.address",
+    "cluster_id": 23,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.address"
+  },
+  {
+    "prompt_id": "form.field.phone_number",
+    "cluster_id": 24,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.phone_number"
+  },
+  {
+    "prompt_id": "form.field.emergency_contact",
+    "cluster_id": 25,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.emergency_contact"
+  },
+  {
+    "prompt_id": "form.field.insurance_id",
+    "cluster_id": 26,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.insurance_id"
+  },
+  {
+    "prompt_id": "form.field.gp_name",
+    "cluster_id": 27,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.gp_name"
+  },
+  {
+    "prompt_id": "form.field.pharmacy_name",
+    "cluster_id": 28,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.pharmacy_name"
+  },
+  {
+    "prompt_id": "form.field.allergies",
+    "cluster_id": 29,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.allergies"
+  },
+  {
+    "prompt_id": "form.field.current_medications",
+    "cluster_id": 30,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.current_medications"
+  },
+  {
+    "prompt_id": "form.field.medical_history",
+    "cluster_id": 31,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.medical_history"
+  },
+  {
+    "prompt_id": "form.field.renewal_reason",
+    "cluster_id": 32,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.renewal_reason"
+  },
+  {
+    "prompt_id": "form.field.consent",
+    "cluster_id": 33,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.consent"
+  },
+  {
+    "prompt_id": "form.field.language_preference",
+    "cluster_id": 34,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.language_preference"
+  },
+  {
+    "prompt_id": "form.field.preferred_contact_time",
+    "cluster_id": 35,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.preferred_contact_time"
+  },
+  {
+    "prompt_id": "os.style.warm",
+    "cluster_id": 36,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.warm"
+  },
+  {
+    "prompt_id": "os.style.professional",
+    "cluster_id": 37,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.professional"
+  },
+  {
+    "prompt_id": "os.style.empathetic",
+    "cluster_id": 38,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.empathetic"
+  },
+  {
+    "prompt_id": "os.style.calm",
+    "cluster_id": 39,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.calm"
+  },
+  {
+    "prompt_id": "os.style.patient",
+    "cluster_id": 40,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.patient"
+  },
+  {
+    "prompt_id": "os.style.encouraging",
+    "cluster_id": 41,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.encouraging"
+  },
+  {
+    "prompt_id": "os.style.clear_language",
+    "cluster_id": 42,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.clear_language"
+  },
+  {
+    "prompt_id": "os.style.slow_speech",
+    "cluster_id": 43,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.slow_speech"
+  },
+  {
+    "prompt_id": "os.style.formal",
+    "cluster_id": 44,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.formal"
+  },
+  {
+    "prompt_id": "os.style.informal",
+    "cluster_id": 45,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.informal"
+  },
+  {
+    "prompt_id": "os.style.reassuring",
+    "cluster_id": 46,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.reassuring"
+  },
+  {
+    "prompt_id": "os.style.focused",
+    "cluster_id": 47,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.focused"
+  },
+  {
+    "prompt_id": "os.style.adaptive",
+    "cluster_id": 48,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.adaptive"
+  },
+  {
+    "prompt_id": "os.style.dignified",
+    "cluster_id": 49,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.dignified"
+  },
+  {
+    "prompt_id": "os.style.compassionate",
+    "cluster_id": 50,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.compassionate"
+  },
+  {
+    "prompt_id": "os.style.structured",
+    "cluster_id": 51,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.structured"
+  },
+  {
+    "prompt_id": "os.pacing.pause_after_complex",
+    "cluster_id": 52,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.pacing.pause_after_complex"
+  },
+  {
+    "prompt_id": "os.pacing.check_understanding",
+    "cluster_id": 53,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.pacing.check_understanding"
+  },
+  {
+    "prompt_id": "os.pacing.summary_breaks",
+    "cluster_id": 54,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.pacing.summary_breaks"
+  },
+  {
+    "prompt_id": "os.pacing.no_interrupting",
+    "cluster_id": 55,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.pacing.no_interrupting"
+  },
+  {
+    "prompt_id": "org.identity.introduction",
+    "cluster_id": 56,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.identity.introduction"
+  },
+  {
+    "prompt_id": "org.compliance.hipaa_reminder",
+    "cluster_id": 57,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.compliance.hipaa_reminder"
+  },
+  {
+    "prompt_id": "org.compliance.data_sharing",
+    "cluster_id": 58,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.compliance.data_sharing"
+  },
+  {
+    "prompt_id": "org.compliance.consent_required",
+    "cluster_id": 59,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.compliance.consent_required"
+  },
+  {
+    "prompt_id": "org.policy.escalation_threshold",
+    "cluster_id": 60,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.escalation_threshold"
+  },
+  {
+    "prompt_id": "org.policy.call_recording",
+    "cluster_id": 61,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.call_recording"
+  },
+  {
+    "prompt_id": "org.policy.renewal_eligibility",
+    "cluster_id": 62,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.renewal_eligibility"
+  },
+  {
+    "prompt_id": "org.policy.no_clinical_advice",
+    "cluster_id": 63,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.no_clinical_advice"
+  },
+  {
+    "prompt_id": "org.policy.language_access",
+    "cluster_id": 64,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.language_access"
+  },
+  {
+    "prompt_id": "org.policy.safeguarding",
+    "cluster_id": 65,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.safeguarding"
+  },
+  {
+    "prompt_id": "org.branding.tone_of_voice",
+    "cluster_id": 66,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.branding.tone_of_voice"
+  },
+  {
+    "prompt_id": "org.branding.value_statement",
+    "cluster_id": 67,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.branding.value_statement"
+  },
+  {
+    "prompt_id": "org.hours.service_availability",
+    "cluster_id": 68,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.hours.service_availability"
+  },
+  {
+    "prompt_id": "org.referral.internal",
+    "cluster_id": 69,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.referral.internal"
+  },
+  {
+    "prompt_id": "org.referral.external",
+    "cluster_id": 70,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.referral.external"
+  },
+  {
+    "prompt_id": "team.handoff.to_nurse",
+    "cluster_id": 71,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_nurse"
+  },
+  {
+    "prompt_id": "team.handoff.to_doctor",
+    "cluster_id": 72,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_doctor"
+  },
+  {
+    "prompt_id": "team.handoff.to_care_coordinator",
+    "cluster_id": 73,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_care_coordinator"
+  },
+  {
+    "prompt_id": "team.handoff.to_social_worker",
+    "cluster_id": 74,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_social_worker"
+  },
+  {
+    "prompt_id": "team.handoff.to_pharmacy",
+    "cluster_id": 75,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_pharmacy"
+  },
+  {
+    "prompt_id": "team.handoff.to_billing",
+    "cluster_id": 76,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_billing"
+  },
+  {
+    "prompt_id": "team.handoff.to_supervisor",
+    "cluster_id": 77,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.to_supervisor"
+  },
+  {
+    "prompt_id": "team.notification.flag_clinical",
+    "cluster_id": 78,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.notification.flag_clinical"
+  },
+  {
+    "prompt_id": "team.notification.flag_social",
+    "cluster_id": 79,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.notification.flag_social"
+  },
+  {
+    "prompt_id": "team.notification.flag_safeguarding",
+    "cluster_id": 80,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.notification.flag_safeguarding"
+  },
+  {
+    "prompt_id": "team.collaboration.case_review",
+    "cluster_id": 81,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.collaboration.case_review"
+  },
+  {
+    "prompt_id": "team.documentation.call_summary",
+    "cluster_id": 82,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.documentation.call_summary"
+  },
+  {
+    "prompt_id": "team.quality.compliance_check",
+    "cluster_id": 83,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.quality.compliance_check"
+  },
+  {
+    "prompt_id": "team.training.call_guidance",
+    "cluster_id": 84,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.training.call_guidance"
+  },
+  {
+    "prompt_id": "directive.priority.emergency_first",
+    "cluster_id": 85,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.priority.emergency_first"
+  },
+  {
+    "prompt_id": "directive.priority.safety_check_mandatory",
+    "cluster_id": 86,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.priority.safety_check_mandatory"
+  },
+  {
+    "prompt_id": "directive.priority.flag_before_close",
+    "cluster_id": 87,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.priority.flag_before_close"
+  },
+  {
+    "prompt_id": "directive.data.accuracy_first",
+    "cluster_id": 88,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.data.accuracy_first"
+  },
+  {
+    "prompt_id": "directive.data.do_not_assume",
+    "cluster_id": 89,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.data.do_not_assume"
+  },
+  {
+    "prompt_id": "directive.escalation.immediate_actions",
+    "cluster_id": 90,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.escalation.immediate_actions"
+  },
+  {
+    "prompt_id": "directive.ethics.no_coercion",
+    "cluster_id": 91,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.ethics.no_coercion"
+  },
+  {
+    "prompt_id": "directive.ethics.non_discrimination",
+    "cluster_id": 92,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.ethics.non_discrimination"
+  },
+  {
+    "prompt_id": "directive.call.mandatory_close",
+    "cluster_id": 93,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.call.mandatory_close"
+  },
+  {
+    "prompt_id": "directive.call.no_abrupt_end",
+    "cluster_id": 94,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.call.no_abrupt_end"
+  },
+  {
+    "prompt_id": "directive.documentation.real_time",
+    "cluster_id": 95,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.documentation.real_time"
+  },
+  {
+    "prompt_id": "directive.scope.stay_in_lane",
+    "cluster_id": 96,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.scope.stay_in_lane"
+  },
+  {
+    "prompt_id": "common.error_recovery",
+    "cluster_id": 97,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.error_recovery"
+  },
+  {
+    "prompt_id": "common.error_handling",
+    "cluster_id": 98,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.error_handling"
+  },
+  {
+    "prompt_id": "common.clarification.request",
+    "cluster_id": 99,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.clarification.request"
+  },
+  {
+    "prompt_id": "common.clarification.repeat_request",
+    "cluster_id": 100,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.clarification.repeat_request"
+  },
+  {
+    "prompt_id": "common.silence.handling",
+    "cluster_id": 101,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.silence.handling"
+  },
+  {
+    "prompt_id": "common.tangent.recovery",
+    "cluster_id": 102,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.tangent.recovery"
+  },
+  {
+    "prompt_id": "common.negative_response.handling",
+    "cluster_id": 103,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.negative_response.handling"
+  },
+  {
+    "prompt_id": "common.distress.response",
+    "cluster_id": 104,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.distress.response"
+  },
+  {
+    "prompt_id": "common.hearing_difficulty.handling",
+    "cluster_id": 105,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.hearing_difficulty.handling"
+  },
+  {
+    "prompt_id": "common.cognitive_difficulty.handling",
+    "cluster_id": 106,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.cognitive_difficulty.handling"
+  },
+  {
+    "prompt_id": "common.carer_present.handling",
+    "cluster_id": 107,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.carer_present.handling"
+  },
+  {
+    "prompt_id": "common.technical_issue.handling",
+    "cluster_id": 108,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.technical_issue.handling"
+  },
+  {
+    "prompt_id": "common.end_of_call.summary",
+    "cluster_id": 109,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.end_of_call.summary"
+  },
+  {
+    "prompt_id": "common.referral.acknowledge",
+    "cluster_id": 110,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.referral.acknowledge"
+  },
+  {
+    "prompt_id": "common.privacy.reminder",
+    "cluster_id": 111,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.privacy.reminder"
+  },
+  {
+    "prompt_id": "common.feedback.invite",
+    "cluster_id": 112,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.feedback.invite"
+  },
+  {
+    "prompt_id": "receptionist.greeting",
+    "cluster_id": 113,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.greeting"
+  },
+  {
+    "prompt_id": "receptionist.handoff",
+    "cluster_id": 114,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.handoff"
+  },
+  {
+    "prompt_id": "receptionist.opening.renewal_call",
+    "cluster_id": 115,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.opening.renewal_call"
+  },
+  {
+    "prompt_id": "receptionist.opening.followup_call",
+    "cluster_id": 116,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.opening.followup_call"
+  },
+  {
+    "prompt_id": "receptionist.opening.wellness_check",
+    "cluster_id": 117,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.opening.wellness_check"
+  },
+  {
+    "prompt_id": "receptionist.voicemail.message",
+    "cluster_id": 118,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.voicemail.message"
+  },
+  {
+    "prompt_id": "receptionist.identity_check.initial",
+    "cluster_id": 119,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.identity_check.initial"
+  },
+  {
+    "prompt_id": "receptionist.wrong_number.response",
+    "cluster_id": 120,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.wrong_number.response"
+  },
+  {
+    "prompt_id": "receptionist.callback.offer",
+    "cluster_id": 121,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.callback.offer"
+  },
+  {
+    "prompt_id": "receptionist.carer.proxy_call",
+    "cluster_id": 122,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.carer.proxy_call"
+  },
+  {
+    "prompt_id": "receptionist.closure.standard",
+    "cluster_id": 123,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.closure.standard"
+  },
+  {
+    "prompt_id": "receptionist.hold.request",
+    "cluster_id": 124,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.hold.request"
+  },
+  {
+    "prompt_id": "verification.dob",
+    "cluster_id": 125,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.dob"
+  },
+  {
+    "prompt_id": "verification.identity",
+    "cluster_id": 126,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.identity"
+  },
+  {
+    "prompt_id": "verification.name_and_dob",
+    "cluster_id": 127,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.name_and_dob"
+  },
+  {
+    "prompt_id": "verification.address_confirmation",
+    "cluster_id": 128,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.address_confirmation"
+  },
+  {
+    "prompt_id": "verification.member_id",
+    "cluster_id": 129,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.member_id"
+  },
+  {
+    "prompt_id": "verification.failed.response",
+    "cluster_id": 130,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.failed.response"
+  },
+  {
+    "prompt_id": "verification.carer.authority",
+    "cluster_id": 131,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.carer.authority"
+  },
+  {
+    "prompt_id": "verification.two_factor.verbal",
+    "cluster_id": 132,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.two_factor.verbal"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.morning",
+    "cluster_id": 133,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.time_of_day.morning"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.afternoon",
+    "cluster_id": 134,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.time_of_day.afternoon"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.evening",
+    "cluster_id": 135,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.time_of_day.evening"
+  },
+  {
+    "prompt_id": "greeting.returning_patient",
+    "cluster_id": 136,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.returning_patient"
+  },
+  {
+    "prompt_id": "greeting.first_contact",
+    "cluster_id": 137,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.first_contact"
+  },
+  {
+    "prompt_id": "greeting.seasonal.wellbeing",
+    "cluster_id": 138,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.seasonal.wellbeing"
+  },
+  {
+    "prompt_id": "closing.standard",
+    "cluster_id": 139,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.standard"
+  },
+  {
+    "prompt_id": "closing.with_followup",
+    "cluster_id": 140,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.with_followup"
+  },
+  {
+    "prompt_id": "closing.no_followup_needed",
+    "cluster_id": 141,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.no_followup_needed"
+  },
+  {
+    "prompt_id": "closing.escalated_case",
+    "cluster_id": 142,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.escalated_case"
+  },
+  {
+    "prompt_id": "closing.patient_declined",
+    "cluster_id": 143,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.patient_declined"
+  },
+  {
+    "prompt_id": "closing.appointment_confirmed",
+    "cluster_id": 144,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.appointment_confirmed"
+  },
+  {
+    "prompt_id": "closing.emergency_referred",
+    "cluster_id": 145,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.emergency_referred"
+  },
+  {
+    "prompt_id": "medication.review.opening",
+    "cluster_id": 146,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.review.opening"
+  },
+  {
+    "prompt_id": "medication.review.each_item",
+    "cluster_id": 147,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.review.each_item"
+  },
+  {
+    "prompt_id": "medication.supply.check",
+    "cluster_id": 148,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.supply.check"
+  },
+  {
+    "prompt_id": "medication.new_prescription.check",
+    "cluster_id": 149,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.new_prescription.check"
+  },
+  {
+    "prompt_id": "medication.stopped.check",
+    "cluster_id": 150,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.stopped.check"
+  },
+  {
+    "prompt_id": "medication.side_effects.probe",
+    "cluster_id": 151,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.side_effects.probe"
+  },
+  {
+    "prompt_id": "medication.adherence.barriers",
+    "cluster_id": 152,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.adherence.barriers"
+  },
+  {
+    "prompt_id": "medication.reminder.service",
+    "cluster_id": 153,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.reminder.service"
+  },
+  {
+    "prompt_id": "medication.repeat_prescription.renewal",
+    "cluster_id": 154,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.repeat_prescription.renewal"
+  },
+  {
+    "prompt_id": "medication.interaction.flag",
+    "cluster_id": 155,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.interaction.flag"
+  },
+  {
+    "prompt_id": "medication.otc.check",
+    "cluster_id": 156,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.otc.check"
+  },
+  {
+    "prompt_id": "appointment.booking.standard",
+    "cluster_id": 157,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.booking.standard"
+  },
+  {
+    "prompt_id": "appointment.reminder.upcoming",
+    "cluster_id": 158,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.reminder.upcoming"
+  },
+  {
+    "prompt_id": "appointment.missed.followup",
+    "cluster_id": 159,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.missed.followup"
+  },
+  {
+    "prompt_id": "appointment.preference.collection",
+    "cluster_id": 160,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.preference.collection"
+  },
+  {
+    "prompt_id": "appointment.transport.check",
+    "cluster_id": 161,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.transport.check"
+  },
+  {
+    "prompt_id": "appointment.prep.instructions",
+    "cluster_id": 162,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.prep.instructions"
+  },
+  {
+    "prompt_id": "appointment.cancellation.handling",
+    "cluster_id": 163,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.cancellation.handling"
+  },
+  {
+    "prompt_id": "appointment.telehealth.option",
+    "cluster_id": 164,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.telehealth.option"
+  },
+  {
+    "prompt_id": "wellness.check.general",
+    "cluster_id": 165,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.general"
+  },
+  {
+    "prompt_id": "wellness.check.physical",
+    "cluster_id": 166,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.physical"
+  },
+  {
+    "prompt_id": "wellness.check.mental",
+    "cluster_id": 167,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.mental"
+  },
+  {
+    "prompt_id": "wellness.check.energy",
+    "cluster_id": 168,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.energy"
+  },
+  {
+    "prompt_id": "wellness.check.pain",
+    "cluster_id": 169,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.pain"
+  },
+  {
+    "prompt_id": "wellness.check.hydration",
+    "cluster_id": 170,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.hydration"
+  },
+  {
+    "prompt_id": "wellness.check.nutrition",
+    "cluster_id": 171,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.nutrition"
+  },
+  {
+    "prompt_id": "wellness.check.exercise",
+    "cluster_id": 172,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.exercise"
+  },
+  {
+    "prompt_id": "wellness.check.social_connection",
+    "cluster_id": 173,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.social_connection"
+  },
+  {
+    "prompt_id": "wellness.check.purpose",
+    "cluster_id": 174,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.purpose"
+  },
+  {
+    "prompt_id": "followup.post_discharge",
+    "cluster_id": 175,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.post_discharge"
+  },
+  {
+    "prompt_id": "followup.post_procedure",
+    "cluster_id": 176,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.post_procedure"
+  },
+  {
+    "prompt_id": "followup.medication_change",
+    "cluster_id": 177,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.medication_change"
+  },
+  {
+    "prompt_id": "followup.referral.outcome",
+    "cluster_id": 178,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.referral.outcome"
+  },
+  {
+    "prompt_id": "followup.action_items",
+    "cluster_id": 179,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.action_items"
+  },
+  {
+    "prompt_id": "followup.concerns_resolution",
+    "cluster_id": 180,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.concerns_resolution"
+  },
+  {
+    "prompt_id": "followup.scheduled.periodic",
+    "cluster_id": 181,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.scheduled.periodic"
+  },
+  {
+    "prompt_id": "emergency.detection.chest_pain",
+    "cluster_id": 182,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.detection.chest_pain"
+  },
+  {
+    "prompt_id": "emergency.detection.stroke_signs",
+    "cluster_id": 183,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.detection.stroke_signs"
+  },
+  {
+    "prompt_id": "emergency.detection.fall",
+    "cluster_id": 184,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.detection.fall"
+  },
+  {
+    "prompt_id": "emergency.detection.breathing",
+    "cluster_id": 185,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.detection.breathing"
+  },
+  {
+    "prompt_id": "emergency.detection.mental_health",
+    "cluster_id": 186,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.detection.mental_health"
+  },
+  {
+    "prompt_id": "emergency.protocol.stay_on_line",
+    "cluster_id": 187,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.protocol.stay_on_line"
+  },
+  {
+    "prompt_id": "emergency.protocol.third_party",
+    "cluster_id": 188,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "emergency.protocol.third_party"
+  },
+  {
+    "prompt_id": "empathy.loss.bereavement",
+    "cluster_id": 189,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.loss.bereavement"
+  },
+  {
+    "prompt_id": "empathy.diagnosis.new",
+    "cluster_id": 190,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.diagnosis.new"
+  },
+  {
+    "prompt_id": "empathy.loneliness.response",
+    "cluster_id": 191,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.loneliness.response"
+  },
+  {
+    "prompt_id": "empathy.frustration.response",
+    "cluster_id": 192,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.frustration.response"
+  },
+  {
+    "prompt_id": "empathy.fear.response",
+    "cluster_id": 193,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.fear.response"
+  },
+  {
+    "prompt_id": "empathy.financial.worry",
+    "cluster_id": 194,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.financial.worry"
+  },
+  {
+    "prompt_id": "empathy.carer_fatigue.recognition",
+    "cluster_id": 195,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "empathy.carer_fatigue.recognition"
+  },
+  {
+    "prompt_id": "renewal.opening.context",
+    "cluster_id": 196,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.opening.context"
+  },
+  {
+    "prompt_id": "renewal.eligibility.confirm",
+    "cluster_id": 197,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.eligibility.confirm"
+  },
+  {
+    "prompt_id": "renewal.change.address",
+    "cluster_id": 198,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.change.address"
+  },
+  {
+    "prompt_id": "renewal.change.circumstances",
+    "cluster_id": 199,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.change.circumstances"
+  },
+  {
+    "prompt_id": "renewal.consent.verbal",
+    "cluster_id": 200,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.consent.verbal"
+  },
+  {
+    "prompt_id": "renewal.confirmation.completed",
+    "cluster_id": 201,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.confirmation.completed"
+  },
+  {
+    "prompt_id": "renewal.declined.response",
+    "cluster_id": 202,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.declined.response"
+  },
+  {
+    "prompt_id": "renewal.ineligible.handling",
+    "cluster_id": 203,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.ineligible.handling"
+  },
+  {
+    "prompt_id": "renewal.pending.review",
+    "cluster_id": 204,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.pending.review"
+  },
+  {
+    "prompt_id": "renewal.plan.upgrade",
+    "cluster_id": 205,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.plan.upgrade"
+  },
+  {
+    "prompt_id": "escalation.clinical.flag",
+    "cluster_id": 206,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.clinical.flag"
+  },
+  {
+    "prompt_id": "escalation.social.flag",
+    "cluster_id": 207,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.social.flag"
+  },
+  {
+    "prompt_id": "escalation.complaint.handling",
+    "cluster_id": 208,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.complaint.handling"
+  },
+  {
+    "prompt_id": "escalation.urgent.clinical",
+    "cluster_id": 209,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.urgent.clinical"
+  },
+  {
+    "prompt_id": "escalation.urgent.social",
+    "cluster_id": 210,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.urgent.social"
+  },
+  {
+    "prompt_id": "escalation.supervisor.request",
+    "cluster_id": 211,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.supervisor.request"
+  },
+  {
+    "prompt_id": "reminder.appointment.24hr",
+    "cluster_id": 212,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.appointment.24hr"
+  },
+  {
+    "prompt_id": "reminder.appointment.week",
+    "cluster_id": 213,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.appointment.week"
+  },
+  {
+    "prompt_id": "reminder.medication.refill",
+    "cluster_id": 214,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.medication.refill"
+  },
+  {
+    "prompt_id": "reminder.checkup.annual",
+    "cluster_id": 215,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.checkup.annual"
+  },
+  {
+    "prompt_id": "reminder.screening.due",
+    "cluster_id": 216,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.screening.due"
+  },
+  {
+    "prompt_id": "reminder.vaccination.due",
+    "cluster_id": 217,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.vaccination.due"
+  },
+  {
+    "prompt_id": "safety.fall.prevention",
+    "cluster_id": 218,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.fall.prevention"
+  },
+  {
+    "prompt_id": "safety.home.hazards",
+    "cluster_id": 219,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.home.hazards"
+  },
+  {
+    "prompt_id": "safety.medication.storage",
+    "cluster_id": 220,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.medication.storage"
+  },
+  {
+    "prompt_id": "safety.alert.system",
+    "cluster_id": 221,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.alert.system"
+  },
+  {
+    "prompt_id": "safety.smoke.alarm",
+    "cluster_id": 222,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.smoke.alarm"
+  },
+  {
+    "prompt_id": "safety.carbon_monoxide.alarm",
+    "cluster_id": 223,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.carbon_monoxide.alarm"
+  },
+  {
+    "prompt_id": "safety.extreme_weather.check",
+    "cluster_id": 224,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.extreme_weather.check"
+  },
+  {
+    "prompt_id": "mental_health.phq2.screening",
+    "cluster_id": 225,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.phq2.screening"
+  },
+  {
+    "prompt_id": "mental_health.anxiety.check",
+    "cluster_id": 226,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.anxiety.check"
+  },
+  {
+    "prompt_id": "mental_health.isolation.check",
+    "cluster_id": 227,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.isolation.check"
+  },
+  {
+    "prompt_id": "mental_health.grief.check",
+    "cluster_id": 228,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.grief.check"
+  },
+  {
+    "prompt_id": "mental_health.crisis.response",
+    "cluster_id": 229,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.crisis.response"
+  },
+  {
+    "prompt_id": "mental_health.referral.offer",
+    "cluster_id": 230,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.referral.offer"
+  },
+  {
+    "prompt_id": "mobility.assessment.overview",
+    "cluster_id": 231,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.assessment.overview"
+  },
+  {
+    "prompt_id": "mobility.aids.check",
+    "cluster_id": 232,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.aids.check"
+  },
+  {
+    "prompt_id": "mobility.stairs.check",
+    "cluster_id": 233,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.stairs.check"
+  },
+  {
+    "prompt_id": "mobility.outdoor.access",
+    "cluster_id": 234,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.outdoor.access"
+  },
+  {
+    "prompt_id": "mobility.new_limitation.flag",
+    "cluster_id": 235,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.new_limitation.flag"
+  },
+  {
+    "prompt_id": "nutrition.assessment.general",
+    "cluster_id": 236,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.assessment.general"
+  },
+  {
+    "prompt_id": "nutrition.shopping.access",
+    "cluster_id": 237,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.shopping.access"
+  },
+  {
+    "prompt_id": "nutrition.weight.change",
+    "cluster_id": 238,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.weight.change"
+  },
+  {
+    "prompt_id": "nutrition.cooking.ability",
+    "cluster_id": 239,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.cooking.ability"
+  },
+  {
+    "prompt_id": "nutrition.hydration.detail",
+    "cluster_id": 240,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.hydration.detail"
+  },
+  {
+    "prompt_id": "care_plan.review.opening",
+    "cluster_id": 241,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.review.opening"
+  },
+  {
+    "prompt_id": "care_plan.goals.review",
+    "cluster_id": 242,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.goals.review"
+  },
+  {
+    "prompt_id": "care_plan.preferences.update",
+    "cluster_id": 243,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.preferences.update"
+  },
+  {
+    "prompt_id": "care_plan.advance.discussion",
+    "cluster_id": 244,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.advance.discussion"
+  },
+  {
+    "prompt_id": "care_plan.family.involvement",
+    "cluster_id": 245,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.family.involvement"
+  },
+  {
+    "prompt_id": "care_plan.services.check",
+    "cluster_id": 246,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.services.check"
+  },
+  {
+    "prompt_id": "pharmacy.delivery.check",
+    "cluster_id": 247,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pharmacy.delivery.check"
+  },
+  {
+    "prompt_id": "pharmacy.blister_pack.offer",
+    "cluster_id": 248,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pharmacy.blister_pack.offer"
+  },
+  {
+    "prompt_id": "pharmacy.generic.explanation",
+    "cluster_id": 249,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pharmacy.generic.explanation"
+  },
+  {
+    "prompt_id": "pharmacy.interactions.flag",
+    "cluster_id": 250,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pharmacy.interactions.flag"
+  },
+  {
+    "prompt_id": "vitals.blood_pressure.self_report",
+    "cluster_id": 251,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.blood_pressure.self_report"
+  },
+  {
+    "prompt_id": "vitals.blood_sugar.self_report",
+    "cluster_id": 252,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.blood_sugar.self_report"
+  },
+  {
+    "prompt_id": "vitals.weight.self_report",
+    "cluster_id": 253,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.weight.self_report"
+  },
+  {
+    "prompt_id": "vitals.temperature.self_report",
+    "cluster_id": 254,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.temperature.self_report"
+  },
+  {
+    "prompt_id": "vitals.pulse.self_report",
+    "cluster_id": 255,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.pulse.self_report"
+  },
+  {
+    "prompt_id": "pain.assessment.initial",
+    "cluster_id": 256,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.assessment.initial"
+  },
+  {
+    "prompt_id": "pain.scale.numeric",
+    "cluster_id": 257,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.scale.numeric"
+  },
+  {
+    "prompt_id": "pain.location.mapping",
+    "cluster_id": 258,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.location.mapping"
+  },
+  {
+    "prompt_id": "pain.character.description",
+    "cluster_id": 259,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.character.description"
+  },
+  {
+    "prompt_id": "pain.management.current",
+    "cluster_id": 260,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.management.current"
+  },
+  {
+    "prompt_id": "pain.impact.functional",
+    "cluster_id": 261,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.impact.functional"
+  },
+  {
+    "prompt_id": "fall_prevention.history.recent",
+    "cluster_id": 262,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "fall_prevention.history.recent"
+  },
+  {
+    "prompt_id": "fall_prevention.fear.assessment",
+    "cluster_id": 263,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "fall_prevention.fear.assessment"
+  },
+  {
+    "prompt_id": "fall_prevention.home.review",
+    "cluster_id": 264,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "fall_prevention.home.review"
+  },
+  {
+    "prompt_id": "fall_prevention.footwear.check",
+    "cluster_id": 265,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "fall_prevention.footwear.check"
+  },
+  {
+    "prompt_id": "fall_prevention.medication.contribution",
+    "cluster_id": 266,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "fall_prevention.medication.contribution"
+  },
+  {
+    "prompt_id": "fall_prevention.vision.check",
+    "cluster_id": 267,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "fall_prevention.vision.check"
+  },
+  {
+    "prompt_id": "cognitive.memory.check",
+    "cluster_id": 268,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.memory.check"
+  },
+  {
+    "prompt_id": "cognitive.orientation.check",
+    "cluster_id": 269,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.orientation.check"
+  },
+  {
+    "prompt_id": "cognitive.daily_tasks.check",
+    "cluster_id": 270,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.daily_tasks.check"
+  },
+  {
+    "prompt_id": "cognitive.concern.escalation",
+    "cluster_id": 271,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.concern.escalation"
+  },
+  {
+    "prompt_id": "social.living_situation.check",
+    "cluster_id": 272,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.living_situation.check"
+  },
+  {
+    "prompt_id": "social.carer.identification",
+    "cluster_id": 273,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.carer.identification"
+  },
+  {
+    "prompt_id": "social.transport.access",
+    "cluster_id": 274,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.transport.access"
+  },
+  {
+    "prompt_id": "social.financial.check",
+    "cluster_id": 275,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.financial.check"
+  },
+  {
+    "prompt_id": "social.benefits.check",
+    "cluster_id": 276,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.benefits.check"
+  },
+  {
+    "prompt_id": "social.community.connection",
+    "cluster_id": 277,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.community.connection"
+  },
+  {
+    "prompt_id": "transition.hospital.to_home",
+    "cluster_id": 278,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.hospital.to_home"
+  },
+  {
+    "prompt_id": "transition.new_diagnosis.support",
+    "cluster_id": 279,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.new_diagnosis.support"
+  },
+  {
+    "prompt_id": "transition.service.change",
+    "cluster_id": 280,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.service.change"
+  },
+  {
+    "prompt_id": "transition.provider.change",
+    "cluster_id": 281,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.provider.change"
+  },
+  {
+    "prompt_id": "consent.verbal.general",
+    "cluster_id": 282,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "consent.verbal.general"
+  },
+  {
+    "prompt_id": "consent.recording.call",
+    "cluster_id": 283,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "consent.recording.call"
+  },
+  {
+    "prompt_id": "consent.data.use",
+    "cluster_id": 284,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "consent.data.use"
+  },
+  {
+    "prompt_id": "consent.third_party.sharing",
+    "cluster_id": 285,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "consent.third_party.sharing"
+  },
+  {
+    "prompt_id": "consent.withdrawal.respect",
+    "cluster_id": 286,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "consent.withdrawal.respect"
+  },
+  {
+    "prompt_id": "documentation.record.update",
+    "cluster_id": 287,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.record.update"
+  },
+  {
+    "prompt_id": "documentation.flag.review",
+    "cluster_id": 288,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.flag.review"
+  },
+  {
+    "prompt_id": "documentation.call.log",
+    "cluster_id": 289,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.call.log"
+  },
+  {
+    "prompt_id": "documentation.consent.recorded",
+    "cluster_id": 290,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.consent.recorded"
+  },
+  {
+    "prompt_id": "documentation.exception.note",
+    "cluster_id": 291,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.exception.note"
+  },
+  {
+    "prompt_id": "insurance.coverage.confirm",
+    "cluster_id": 292,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.coverage.confirm"
+  },
+  {
+    "prompt_id": "insurance.change.notify",
+    "cluster_id": 293,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.change.notify"
+  },
+  {
+    "prompt_id": "insurance.gap.identify",
+    "cluster_id": 294,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.gap.identify"
+  },
+  {
+    "prompt_id": "insurance.claim.assistance",
+    "cluster_id": 295,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.claim.assistance"
+  },
+  {
+    "prompt_id": "insurance.premium.explanation",
+    "cluster_id": 296,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.premium.explanation"
+  },
+  {
+    "prompt_id": "health_check.annual.full",
+    "cluster_id": 297,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.annual.full"
+  },
+  {
+    "prompt_id": "health_check.chronic.diabetes",
+    "cluster_id": 298,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.diabetes"
+  },
+  {
+    "prompt_id": "health_check.chronic.heart_failure",
+    "cluster_id": 299,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.heart_failure"
+  },
+  {
+    "prompt_id": "health_check.chronic.copd",
+    "cluster_id": 300,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.copd"
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension",
+    "cluster_id": 301,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.hypertension"
+  },
+  {
+    "prompt_id": "health_check.post_covid.followup",
+    "cluster_id": 302,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.post_covid.followup"
+  },
+  {
+    "prompt_id": "directive.wellbeing.patient_first",
+    "cluster_id": 303,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.wellbeing.patient_first"
+  },
+  {
+    "prompt_id": "directive.wellbeing.holistic_view",
+    "cluster_id": 304,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.wellbeing.holistic_view"
+  },
+  {
+    "prompt_id": "directive.wellbeing.rapport_first",
+    "cluster_id": 305,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.wellbeing.rapport_first"
+  },
+  {
+    "prompt_id": "directive.communication.adapt_always",
+    "cluster_id": 306,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.communication.adapt_always"
+  },
+  {
+    "prompt_id": "directive.communication.plain_language",
+    "cluster_id": 307,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.communication.plain_language"
+  },
+  {
+    "prompt_id": "directive.documentation.no_assumption",
+    "cluster_id": 308,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.documentation.no_assumption"
+  },
+  {
+    "prompt_id": "directive.quality.excellence_standard",
+    "cluster_id": 309,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.quality.excellence_standard"
+  },
+  {
+    "prompt_id": "os.voice.tone_variation",
+    "cluster_id": 310,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.voice.tone_variation"
+  },
+  {
+    "prompt_id": "os.language.age_appropriate",
+    "cluster_id": 311,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.language.age_appropriate"
+  },
+  {
+    "prompt_id": "os.language.culturally_sensitive",
+    "cluster_id": 312,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.language.culturally_sensitive"
+  },
+  {
+    "prompt_id": "os.demeanour.non_judgmental",
+    "cluster_id": 313,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.demeanour.non_judgmental"
+  },
+  {
+    "prompt_id": "os.demeanour.honest",
+    "cluster_id": 314,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.demeanour.honest"
+  },
+  {
+    "prompt_id": "os.demeanour.grateful",
+    "cluster_id": 315,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.demeanour.grateful"
+  },
+  {
+    "prompt_id": "os.listening.active",
+    "cluster_id": 316,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.listening.active"
+  },
+  {
+    "prompt_id": "os.listening.no_multitasking",
+    "cluster_id": 317,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.listening.no_multitasking"
+  },
+  {
+    "prompt_id": "org.mission.reinforce",
+    "cluster_id": 318,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.mission.reinforce"
+  },
+  {
+    "prompt_id": "org.values.compassion",
+    "cluster_id": 319,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.values.compassion"
+  },
+  {
+    "prompt_id": "org.values.integrity",
+    "cluster_id": 320,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.values.integrity"
+  },
+  {
+    "prompt_id": "org.values.excellence",
+    "cluster_id": 321,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.values.excellence"
+  },
+  {
+    "prompt_id": "org.standards.quality_assurance",
+    "cluster_id": 322,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.standards.quality_assurance"
+  },
+  {
+    "prompt_id": "org.regulatory.cqc_compliance",
+    "cluster_id": 323,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.regulatory.cqc_compliance"
+  },
+  {
+    "prompt_id": "team.handoff.warm_transfer",
+    "cluster_id": 324,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.handoff.warm_transfer"
+  },
+  {
+    "prompt_id": "team.communication.closed_loop",
+    "cluster_id": 325,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.communication.closed_loop"
+  },
+  {
+    "prompt_id": "team.escalation.timeliness",
+    "cluster_id": 326,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.escalation.timeliness"
+  },
+  {
+    "prompt_id": "team.feedback.continuous",
+    "cluster_id": 327,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.feedback.continuous"
+  },
+  {
+    "prompt_id": "team.peer.support",
+    "cluster_id": 328,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.peer.support"
+  },
+  {
+    "prompt_id": "directive.language.interpret_charitably",
+    "cluster_id": 329,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.language.interpret_charitably"
+  },
+  {
+    "prompt_id": "directive.time.no_rushing",
+    "cluster_id": 330,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.time.no_rushing"
+  },
+  {
+    "prompt_id": "directive.outcome.patient_confidence",
+    "cluster_id": 331,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.outcome.patient_confidence"
+  },
+  {
+    "prompt_id": "directive.compliance.mandatory_fields",
+    "cluster_id": 332,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.compliance.mandatory_fields"
+  },
+  {
+    "prompt_id": "directive.safety.speak_up",
+    "cluster_id": 333,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.safety.speak_up"
+  },
+  {
+    "prompt_id": "context.seasonal.winter_check",
+    "cluster_id": 334,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.seasonal.winter_check"
+  },
+  {
+    "prompt_id": "context.seasonal.summer_check",
+    "cluster_id": 335,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.seasonal.summer_check"
+  },
+  {
+    "prompt_id": "context.pandemic.check",
+    "cluster_id": 336,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.pandemic.check"
+  },
+  {
+    "prompt_id": "context.holiday.check",
+    "cluster_id": 337,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.holiday.check"
+  },
+  {
+    "prompt_id": "context.service.disruption",
+    "cluster_id": 338,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.service.disruption"
+  },
+  {
+    "prompt_id": "directive.accessibility.hearing",
+    "cluster_id": 339,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.accessibility.hearing"
+  },
+  {
+    "prompt_id": "directive.accessibility.vision",
+    "cluster_id": 340,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.accessibility.vision"
+  },
+  {
+    "prompt_id": "directive.accessibility.cognitive",
+    "cluster_id": 341,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.accessibility.cognitive"
+  },
+  {
+    "prompt_id": "org.audit.trail",
+    "cluster_id": 342,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.audit.trail"
+  },
+  {
+    "prompt_id": "org.training.continuous",
+    "cluster_id": 343,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.training.continuous"
+  },
+  {
+    "prompt_id": "team.review.debrief",
+    "cluster_id": 344,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.review.debrief"
+  },
+  {
+    "prompt_id": "survey.question.overall_satisfaction",
+    "cluster_id": 345,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.overall_satisfaction"
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning",
+    "cluster_id": 346,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.purpose_meaning"
+  },
+  {
+    "prompt_id": "os.style.hope_instilling",
+    "cluster_id": 347,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.hope_instilling"
+  },
+  {
+    "prompt_id": "renewal.plan.right_size",
+    "cluster_id": 348,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "renewal.plan.right_size"
+  },
+  {
+    "prompt_id": "closing.gratitude.sincere",
+    "cluster_id": 349,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.gratitude.sincere"
+  },
+  {
+    "prompt_id": "common.best_interests.principle",
+    "cluster_id": 350,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.best_interests.principle"
+  },
+  {
+    "prompt_id": "common.advocacy.role",
+    "cluster_id": 351,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.advocacy.role"
+  },
+  {
+    "prompt_id": "directive.review.post_call",
+    "cluster_id": 352,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.review.post_call"
+  },
+  {
+    "prompt_id": "health_check.vaccination.status",
+    "cluster_id": 353,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.vaccination.status"
+  },
+  {
+    "prompt_id": "social.housing.safety",
+    "cluster_id": 354,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.housing.safety"
+  },
+  {
+    "prompt_id": "mental_health.alcohol.check",
+    "cluster_id": 355,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.alcohol.check"
+  },
+  {
+    "prompt_id": "mental_health.smoking.check",
+    "cluster_id": 356,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.smoking.check"
+  },
+  {
+    "prompt_id": "os.error.graceful_recovery",
+    "cluster_id": 357,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.error.graceful_recovery"
+  },
+  {
+    "prompt_id": "form.field.proxy_consent",
+    "cluster_id": 358,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.proxy_consent"
+  },
+  {
+    "prompt_id": "appointment.prep.pre_questions",
+    "cluster_id": 359,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "appointment.prep.pre_questions"
+  },
+  {
+    "prompt_id": "followup.action_agreed.confirm",
+    "cluster_id": 360,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.action_agreed.confirm"
+  },
+  {
+    "prompt_id": "org.person_centred.always",
+    "cluster_id": 361,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.person_centred.always"
+  },
+  {
+    "prompt_id": "team.kudos.patient_feedback",
+    "cluster_id": 362,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.kudos.patient_feedback"
+  },
+  {
+    "prompt_id": "directive.continuous_learning.spirit",
+    "cluster_id": 363,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.continuous_learning.spirit"
+  },
+  {
+    "prompt_id": "wellness.check.gratitude",
+    "cluster_id": 364,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.gratitude"
+  },
+  {
+    "prompt_id": "common.patience.virtue",
+    "cluster_id": 365,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.patience.virtue"
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk",
+    "cluster_id": 366,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.living_alone_risk"
+  },
+  {
+    "prompt_id": "survey.question.self_care_ability",
+    "cluster_id": 367,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.self_care_ability"
+  },
+  {
+    "prompt_id": "survey.question.night_symptoms",
+    "cluster_id": 368,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.night_symptoms"
+  },
+  {
+    "prompt_id": "survey.question.hospital_visits",
+    "cluster_id": 369,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.hospital_visits"
+  },
+  {
+    "prompt_id": "survey.question.new_symptoms",
+    "cluster_id": 370,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.new_symptoms"
+  },
+  {
+    "prompt_id": "survey.question.gp_contact",
+    "cluster_id": 371,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.gp_contact"
+  },
+  {
+    "prompt_id": "survey.question.carer_satisfaction",
+    "cluster_id": 372,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "survey.question.carer_satisfaction"
+  },
+  {
+    "prompt_id": "form.field.nok_contact",
+    "cluster_id": 373,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.nok_contact"
+  },
+  {
+    "prompt_id": "form.field.gp_surgery_details",
+    "cluster_id": 374,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.gp_surgery_details"
+  },
+  {
+    "prompt_id": "form.field.advance_directive",
+    "cluster_id": 375,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.advance_directive"
+  },
+  {
+    "prompt_id": "form.field.communication_needs",
+    "cluster_id": 376,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.communication_needs"
+  },
+  {
+    "prompt_id": "form.field.religion_culture",
+    "cluster_id": 377,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.religion_culture"
+  },
+  {
+    "prompt_id": "form.field.discharge_summary_receipt",
+    "cluster_id": 378,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "form.field.discharge_summary_receipt"
+  },
+  {
+    "prompt_id": "os.style.strength_based",
+    "cluster_id": 379,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.strength_based"
+  },
+  {
+    "prompt_id": "os.style.trauma_informed",
+    "cluster_id": 380,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.trauma_informed"
+  },
+  {
+    "prompt_id": "os.style.predictable_structure",
+    "cluster_id": 381,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.predictable_structure"
+  },
+  {
+    "prompt_id": "os.language.repeat_differently",
+    "cluster_id": 382,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.language.repeat_differently"
+  },
+  {
+    "prompt_id": "os.pacing.honour_silence",
+    "cluster_id": 383,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.pacing.honour_silence"
+  },
+  {
+    "prompt_id": "os.style.forward_looking",
+    "cluster_id": 384,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.forward_looking"
+  },
+  {
+    "prompt_id": "os.rapport.personal_touch",
+    "cluster_id": 385,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.rapport.personal_touch"
+  },
+  {
+    "prompt_id": "os.style.validate_experience",
+    "cluster_id": 386,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.validate_experience"
+  },
+  {
+    "prompt_id": "org.partnership.gp_liaison",
+    "cluster_id": 387,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.partnership.gp_liaison"
+  },
+  {
+    "prompt_id": "org.partnership.specialist",
+    "cluster_id": 388,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.partnership.specialist"
+  },
+  {
+    "prompt_id": "org.policy.reasonable_adjustments",
+    "cluster_id": 389,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.reasonable_adjustments"
+  },
+  {
+    "prompt_id": "org.policy.lone_worker",
+    "cluster_id": 390,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.lone_worker"
+  },
+  {
+    "prompt_id": "org.csr.community_resources",
+    "cluster_id": 391,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.csr.community_resources"
+  },
+  {
+    "prompt_id": "org.policy.no_ghost_calls",
+    "cluster_id": 392,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.no_ghost_calls"
+  },
+  {
+    "prompt_id": "org.feedback.patient_voice",
+    "cluster_id": 393,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.feedback.patient_voice"
+  },
+  {
+    "prompt_id": "team.multidisciplinary.case_conference",
+    "cluster_id": 394,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.multidisciplinary.case_conference"
+  },
+  {
+    "prompt_id": "team.escalation.clear_handover",
+    "cluster_id": 395,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.escalation.clear_handover"
+  },
+  {
+    "prompt_id": "team.training.role_play",
+    "cluster_id": 396,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.training.role_play"
+  },
+  {
+    "prompt_id": "team.capacity.flag_concern",
+    "cluster_id": 397,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.capacity.flag_concern"
+  },
+  {
+    "prompt_id": "team.night.out_of_hours",
+    "cluster_id": 398,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.night.out_of_hours"
+  },
+  {
+    "prompt_id": "team.supervision.regular",
+    "cluster_id": 399,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.supervision.regular"
+  },
+  {
+    "prompt_id": "team.rota.schedule_awareness",
+    "cluster_id": 400,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.rota.schedule_awareness"
+  },
+  {
+    "prompt_id": "directive.compassion.fatigue.awareness",
+    "cluster_id": 401,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.compassion.fatigue.awareness"
+  },
+  {
+    "prompt_id": "directive.innovation.welcome",
+    "cluster_id": 402,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.innovation.welcome"
+  },
+  {
+    "prompt_id": "directive.patient.autonomy",
+    "cluster_id": 403,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.patient.autonomy"
+  },
+  {
+    "prompt_id": "directive.dignity.always",
+    "cluster_id": 404,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.dignity.always"
+  },
+  {
+    "prompt_id": "directive.record.accuracy_is_safety",
+    "cluster_id": 405,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.record.accuracy_is_safety"
+  },
+  {
+    "prompt_id": "health_check.frailty.screening",
+    "cluster_id": 406,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.frailty.screening"
+  },
+  {
+    "prompt_id": "health_check.falls.risk_stratification",
+    "cluster_id": 407,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.falls.risk_stratification"
+  },
+  {
+    "prompt_id": "health_check.chronic.arthritis",
+    "cluster_id": 408,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.arthritis"
+  },
+  {
+    "prompt_id": "health_check.chronic.dementia",
+    "cluster_id": 409,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.dementia"
+  },
+  {
+    "prompt_id": "health_check.chronic.depression_management",
+    "cluster_id": 410,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.depression_management"
+  },
+  {
+    "prompt_id": "health_check.chronic.osteoporosis",
+    "cluster_id": 411,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "health_check.chronic.osteoporosis"
+  },
+  {
+    "prompt_id": "escalation.urgent.prescription_gap",
+    "cluster_id": 412,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.urgent.prescription_gap"
+  },
+  {
+    "prompt_id": "escalation.urgent.carer_breakdown",
+    "cluster_id": 413,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.urgent.carer_breakdown"
+  },
+  {
+    "prompt_id": "escalation.urgent.unplanned_discharge",
+    "cluster_id": 414,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.urgent.unplanned_discharge"
+  },
+  {
+    "prompt_id": "escalation.deferred.gp_referral",
+    "cluster_id": 415,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.deferred.gp_referral"
+  },
+  {
+    "prompt_id": "escalation.deferred.specialist_referral",
+    "cluster_id": 416,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "escalation.deferred.specialist_referral"
+  },
+  {
+    "prompt_id": "reminder.care_plan.review_due",
+    "cluster_id": 417,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.care_plan.review_due"
+  },
+  {
+    "prompt_id": "reminder.lab.results_followup",
+    "cluster_id": 418,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.lab.results_followup"
+  },
+  {
+    "prompt_id": "reminder.equipment.service_due",
+    "cluster_id": 419,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.equipment.service_due"
+  },
+  {
+    "prompt_id": "reminder.renewal.approaching",
+    "cluster_id": 420,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "reminder.renewal.approaching"
+  },
+  {
+    "prompt_id": "medication.reconciliation.post_hospital",
+    "cluster_id": 421,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.reconciliation.post_hospital"
+  },
+  {
+    "prompt_id": "medication.deprescribing.awareness",
+    "cluster_id": 422,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.deprescribing.awareness"
+  },
+  {
+    "prompt_id": "medication.timing.check",
+    "cluster_id": 423,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.timing.check"
+  },
+  {
+    "prompt_id": "medication.swallowing.difficulty",
+    "cluster_id": 424,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.swallowing.difficulty"
+  },
+  {
+    "prompt_id": "medication.eye_drops.check",
+    "cluster_id": 425,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "medication.eye_drops.check"
+  },
+  {
+    "prompt_id": "wellness.check.spirituality",
+    "cluster_id": 426,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.spirituality"
+  },
+  {
+    "prompt_id": "wellness.check.creativity",
+    "cluster_id": 427,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.creativity"
+  },
+  {
+    "prompt_id": "wellness.check.pets",
+    "cluster_id": 428,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.pets"
+  },
+  {
+    "prompt_id": "wellness.check.technology",
+    "cluster_id": 429,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.technology"
+  },
+  {
+    "prompt_id": "wellness.check.outdoors_nature",
+    "cluster_id": 430,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "wellness.check.outdoors_nature"
+  },
+  {
+    "prompt_id": "cognitive.safety.driving",
+    "cluster_id": 431,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.safety.driving"
+  },
+  {
+    "prompt_id": "cognitive.support.carer_input",
+    "cluster_id": 432,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.support.carer_input"
+  },
+  {
+    "prompt_id": "cognitive.activities.engagement",
+    "cluster_id": 433,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "cognitive.activities.engagement"
+  },
+  {
+    "prompt_id": "transition.care_home.move",
+    "cluster_id": 434,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.care_home.move"
+  },
+  {
+    "prompt_id": "transition.returning_home.from_rehab",
+    "cluster_id": 435,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.returning_home.from_rehab"
+  },
+  {
+    "prompt_id": "transition.end_of_life.approach",
+    "cluster_id": 436,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "transition.end_of_life.approach"
+  },
+  {
+    "prompt_id": "social.meals_on_wheels.check",
+    "cluster_id": 437,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.meals_on_wheels.check"
+  },
+  {
+    "prompt_id": "social.befriending.offer",
+    "cluster_id": 438,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.befriending.offer"
+  },
+  {
+    "prompt_id": "social.legal.power_of_attorney",
+    "cluster_id": 439,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.legal.power_of_attorney"
+  },
+  {
+    "prompt_id": "social.housing.adaptations",
+    "cluster_id": 440,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "social.housing.adaptations"
+  },
+  {
+    "prompt_id": "pain.breakthrough.management",
+    "cluster_id": 441,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.breakthrough.management"
+  },
+  {
+    "prompt_id": "pain.non_pharmacological.options",
+    "cluster_id": 442,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.non_pharmacological.options"
+  },
+  {
+    "prompt_id": "pain.referral.specialist",
+    "cluster_id": 443,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pain.referral.specialist"
+  },
+  {
+    "prompt_id": "verification.carer.consent_check",
+    "cluster_id": 444,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.carer.consent_check"
+  },
+  {
+    "prompt_id": "verification.callback.confirm_number",
+    "cluster_id": 445,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.callback.confirm_number"
+  },
+  {
+    "prompt_id": "verification.recording.consent",
+    "cluster_id": 446,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "verification.recording.consent"
+  },
+  {
+    "prompt_id": "common.repeat.simplified",
+    "cluster_id": 447,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.repeat.simplified"
+  },
+  {
+    "prompt_id": "common.boundary.scope",
+    "cluster_id": 448,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.boundary.scope"
+  },
+  {
+    "prompt_id": "common.call.interruption",
+    "cluster_id": 449,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.call.interruption"
+  },
+  {
+    "prompt_id": "common.sensitive_topic.approach",
+    "cluster_id": 450,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.sensitive_topic.approach"
+  },
+  {
+    "prompt_id": "common.good_news.acknowledge",
+    "cluster_id": 451,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.good_news.acknowledge"
+  },
+  {
+    "prompt_id": "common.challenge.validate_effort",
+    "cluster_id": 452,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.challenge.validate_effort"
+  },
+  {
+    "prompt_id": "greeting.carer.acknowledgement",
+    "cluster_id": 453,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.carer.acknowledgement"
+  },
+  {
+    "prompt_id": "greeting.post_emergency.sensitivity",
+    "cluster_id": 454,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.post_emergency.sensitivity"
+  },
+  {
+    "prompt_id": "greeting.long_absence.reconnect",
+    "cluster_id": 455,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "greeting.long_absence.reconnect"
+  },
+  {
+    "prompt_id": "closing.action_plan.recap",
+    "cluster_id": 456,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.action_plan.recap"
+  },
+  {
+    "prompt_id": "closing.contact_info.provide",
+    "cluster_id": 457,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.contact_info.provide"
+  },
+  {
+    "prompt_id": "closing.wellbeing.final_check",
+    "cluster_id": 458,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "closing.wellbeing.final_check"
+  },
+  {
+    "prompt_id": "context.public_health.alert",
+    "cluster_id": 459,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.public_health.alert"
+  },
+  {
+    "prompt_id": "context.local_service.change",
+    "cluster_id": 460,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "context.local_service.change"
+  },
+  {
+    "prompt_id": "insurance.renewal.eligibility_verify",
+    "cluster_id": 461,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.renewal.eligibility_verify"
+  },
+  {
+    "prompt_id": "insurance.appeal.process_explain",
+    "cluster_id": 462,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "insurance.appeal.process_explain"
+  },
+  {
+    "prompt_id": "pharmacy.controlled.drug_check",
+    "cluster_id": 463,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pharmacy.controlled.drug_check"
+  },
+  {
+    "prompt_id": "pharmacy.disposal.guidance",
+    "cluster_id": 464,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "pharmacy.disposal.guidance"
+  },
+  {
+    "prompt_id": "safety.gas_appliance.check",
+    "cluster_id": 465,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.gas_appliance.check"
+  },
+  {
+    "prompt_id": "safety.neighbours.network",
+    "cluster_id": 466,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.neighbours.network"
+  },
+  {
+    "prompt_id": "safety.key_safe.check",
+    "cluster_id": 467,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "safety.key_safe.check"
+  },
+  {
+    "prompt_id": "vitals.oxygen.self_report",
+    "cluster_id": 468,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.oxygen.self_report"
+  },
+  {
+    "prompt_id": "vitals.pain.daily_log",
+    "cluster_id": 469,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "vitals.pain.daily_log"
+  },
+  {
+    "prompt_id": "documentation.family.notification",
+    "cluster_id": 470,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.family.notification"
+  },
+  {
+    "prompt_id": "documentation.care_notes.plain_language",
+    "cluster_id": 471,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "documentation.care_notes.plain_language"
+  },
+  {
+    "prompt_id": "mental_health.sleep.detailed",
+    "cluster_id": 472,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.sleep.detailed"
+  },
+  {
+    "prompt_id": "mental_health.coping.strategies",
+    "cluster_id": 473,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.coping.strategies"
+  },
+  {
+    "prompt_id": "mental_health.medication.review",
+    "cluster_id": 474,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mental_health.medication.review"
+  },
+  {
+    "prompt_id": "mobility.physio.engagement",
+    "cluster_id": 475,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.physio.engagement"
+  },
+  {
+    "prompt_id": "mobility.wheelchair.check",
+    "cluster_id": 476,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "mobility.wheelchair.check"
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen",
+    "cluster_id": 477,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.malnutrition.screen"
+  },
+  {
+    "prompt_id": "nutrition.supplements.check",
+    "cluster_id": 478,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "nutrition.supplements.check"
+  },
+  {
+    "prompt_id": "care_plan.carer.assessment",
+    "cluster_id": 479,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.carer.assessment"
+  },
+  {
+    "prompt_id": "care_plan.respite.needs",
+    "cluster_id": 480,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "care_plan.respite.needs"
+  },
+  {
+    "prompt_id": "receptionist.triage.initial",
+    "cluster_id": 481,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.triage.initial"
+  },
+  {
+    "prompt_id": "receptionist.queue.explanation",
+    "cluster_id": 482,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.queue.explanation"
+  },
+  {
+    "prompt_id": "receptionist.message.take",
+    "cluster_id": 483,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "receptionist.message.take"
+  },
+  {
+    "prompt_id": "followup.non_engagement.sensitive",
+    "cluster_id": 484,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.non_engagement.sensitive"
+  },
+  {
+    "prompt_id": "followup.goal.progress",
+    "cluster_id": 485,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.goal.progress"
+  },
+  {
+    "prompt_id": "followup.carer.check",
+    "cluster_id": 486,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "followup.carer.check"
+  },
+  {
+    "prompt_id": "os.style.celebrate_small_wins",
+    "cluster_id": 487,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.celebrate_small_wins"
+  },
+  {
+    "prompt_id": "os.communication.letter_follow_up",
+    "cluster_id": 488,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.communication.letter_follow_up"
+  },
+  {
+    "prompt_id": "org.policy.interpreter.use",
+    "cluster_id": 489,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.interpreter.use"
+  },
+  {
+    "prompt_id": "org.policy.chaperone",
+    "cluster_id": 490,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.policy.chaperone"
+  },
+  {
+    "prompt_id": "team.innovation.prompt_improvement",
+    "cluster_id": 491,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.innovation.prompt_improvement"
+  },
+  {
+    "prompt_id": "team.resilience.self_care",
+    "cluster_id": 492,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "team.resilience.self_care"
+  },
+  {
+    "prompt_id": "directive.technology.assist_not_replace",
+    "cluster_id": 493,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.technology.assist_not_replace"
+  },
+  {
+    "prompt_id": "directive.review.prompt_library",
+    "cluster_id": 494,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.review.prompt_library"
+  },
+  {
+    "prompt_id": "directive.audit.random_sampling",
+    "cluster_id": 495,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.audit.random_sampling"
+  },
+  {
+    "prompt_id": "directive.compassion.consistent",
+    "cluster_id": 496,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "directive.compassion.consistent"
+  },
+  {
+    "prompt_id": "os.style.normalise_asking",
+    "cluster_id": 497,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "os.style.normalise_asking"
+  },
+  {
+    "prompt_id": "common.close_loop.confirm",
+    "cluster_id": 498,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "common.close_loop.confirm"
+  },
+  {
+    "prompt_id": "org.values.patient_centred_culture",
+    "cluster_id": 499,
+    "is_duplicate": false,
+    "duplicate_type": "original",
+    "similarity_level": "n/a",
+    "original_prompt_id": "org.values.patient_centred_culture"
+  },
+  {
+    "prompt_id": "team.feedback.continuous.v1",
+    "cluster_id": 327,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "team.feedback.continuous"
+  },
+  {
+    "prompt_id": "team.feedback.continuous.v3",
+    "cluster_id": 327,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "team.feedback.continuous"
+  },
+  {
+    "prompt_id": "org.compliance.hipaa_reminder.v2",
+    "cluster_id": 57,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "org.compliance.hipaa_reminder"
+  },
+  {
+    "prompt_id": "survey.question.side_effects.v2",
+    "cluster_id": 12,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "survey.question.side_effects"
+  },
+  {
+    "prompt_id": "survey.question.side_effects.v3",
+    "cluster_id": 12,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "survey.question.side_effects"
+  },
+  {
+    "prompt_id": "os.style.strength_based.v2",
+    "cluster_id": 379,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.style.strength_based"
+  },
+  {
+    "prompt_id": "closing.with_followup.v1",
+    "cluster_id": 140,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "closing.with_followup"
+  },
+  {
+    "prompt_id": "closing.with_followup.v2",
+    "cluster_id": 140,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "closing.with_followup"
+  },
+  {
+    "prompt_id": "verification.dob.v3",
+    "cluster_id": 125,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "verification.dob"
+  },
+  {
+    "prompt_id": "receptionist.handoff.v3",
+    "cluster_id": 114,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "receptionist.handoff"
+  },
+  {
+    "prompt_id": "team.handoff.to_nurse.v1",
+    "cluster_id": 71,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "team.handoff.to_nurse"
+  },
+  {
+    "prompt_id": "form.field.religion_culture.v2",
+    "cluster_id": 377,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "form.field.religion_culture"
+  },
+  {
+    "prompt_id": "form.field.religion_culture.v3",
+    "cluster_id": 377,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "form.field.religion_culture"
+  },
+  {
+    "prompt_id": "os.pacing.pause_after_complex.v3",
+    "cluster_id": 52,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.pacing.pause_after_complex"
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning.v1",
+    "cluster_id": 346,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "wellness.check.purpose_meaning"
+  },
+  {
+    "prompt_id": "wellness.check.purpose_meaning.v3",
+    "cluster_id": 346,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "wellness.check.purpose_meaning"
+  },
+  {
+    "prompt_id": "closing.action_plan.recap.v2",
+    "cluster_id": 456,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "closing.action_plan.recap"
+  },
+  {
+    "prompt_id": "transition.new_diagnosis.support.v2",
+    "cluster_id": 279,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "transition.new_diagnosis.support"
+  },
+  {
+    "prompt_id": "transition.new_diagnosis.support.v1",
+    "cluster_id": 279,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "transition.new_diagnosis.support"
+  },
+  {
+    "prompt_id": "os.style.formal.v3",
+    "cluster_id": 44,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.style.formal"
+  },
+  {
+    "prompt_id": "health_check.post_covid.followup.v1",
+    "cluster_id": 302,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "health_check.post_covid.followup"
+  },
+  {
+    "prompt_id": "health_check.post_covid.followup.v2",
+    "cluster_id": 302,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "health_check.post_covid.followup"
+  },
+  {
+    "prompt_id": "reminder.screening.due.v3",
+    "cluster_id": 216,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "reminder.screening.due"
+  },
+  {
+    "prompt_id": "reminder.screening.due.v2",
+    "cluster_id": 216,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "reminder.screening.due"
+  },
+  {
+    "prompt_id": "survey.question.mobility.v2",
+    "cluster_id": 16,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "survey.question.mobility"
+  },
+  {
+    "prompt_id": "survey.question.appetite.v1",
+    "cluster_id": 15,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "survey.question.appetite"
+  },
+  {
+    "prompt_id": "os.style.focused.v3",
+    "cluster_id": 47,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.style.focused"
+  },
+  {
+    "prompt_id": "os.style.focused.v2",
+    "cluster_id": 47,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.style.focused"
+  },
+  {
+    "prompt_id": "common.privacy.reminder.v2",
+    "cluster_id": 111,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "common.privacy.reminder"
+  },
+  {
+    "prompt_id": "common.privacy.reminder.v1",
+    "cluster_id": 111,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.privacy.reminder"
+  },
+  {
+    "prompt_id": "receptionist.identity_check.initial.v3",
+    "cluster_id": 119,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "receptionist.identity_check.initial"
+  },
+  {
+    "prompt_id": "pain.location.mapping.v1",
+    "cluster_id": 258,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "pain.location.mapping"
+  },
+  {
+    "prompt_id": "pain.location.mapping.v3",
+    "cluster_id": 258,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "pain.location.mapping"
+  },
+  {
+    "prompt_id": "directive.documentation.no_assumption.v1",
+    "cluster_id": 308,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "directive.documentation.no_assumption"
+  },
+  {
+    "prompt_id": "survey.question.mood.v3",
+    "cluster_id": 13,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "survey.question.mood"
+  },
+  {
+    "prompt_id": "documentation.record.update.v3",
+    "cluster_id": 287,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "documentation.record.update"
+  },
+  {
+    "prompt_id": "documentation.record.update.v1",
+    "cluster_id": 287,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "documentation.record.update"
+  },
+  {
+    "prompt_id": "common.silence.handling.v2",
+    "cluster_id": 101,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "common.silence.handling"
+  },
+  {
+    "prompt_id": "common.silence.handling.v3",
+    "cluster_id": 101,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "common.silence.handling"
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.v3",
+    "cluster_id": 366,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "survey.question.living_alone_risk"
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.v1",
+    "cluster_id": 366,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "survey.question.living_alone_risk"
+  },
+  {
+    "prompt_id": "directive.compliance.mandatory_fields.v3",
+    "cluster_id": 332,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "directive.compliance.mandatory_fields"
+  },
+  {
+    "prompt_id": "appointment.prep.pre_questions.v3",
+    "cluster_id": 359,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "appointment.prep.pre_questions"
+  },
+  {
+    "prompt_id": "appointment.prep.pre_questions.v2",
+    "cluster_id": 359,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "appointment.prep.pre_questions"
+  },
+  {
+    "prompt_id": "reminder.medication.refill.v2",
+    "cluster_id": 214,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "reminder.medication.refill"
+  },
+  {
+    "prompt_id": "common.feedback.invite.v1",
+    "cluster_id": 112,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.feedback.invite"
+  },
+  {
+    "prompt_id": "common.feedback.invite.v2",
+    "cluster_id": 112,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "common.feedback.invite"
+  },
+  {
+    "prompt_id": "mental_health.crisis.response.v3",
+    "cluster_id": 229,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "mental_health.crisis.response"
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension.v3",
+    "cluster_id": 301,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "health_check.chronic.hypertension"
+  },
+  {
+    "prompt_id": "health_check.chronic.hypertension.v1",
+    "cluster_id": 301,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "health_check.chronic.hypertension"
+  },
+  {
+    "prompt_id": "closing.escalated_case.v3",
+    "cluster_id": 142,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "closing.escalated_case"
+  },
+  {
+    "prompt_id": "escalation.urgent.unplanned_discharge.v3",
+    "cluster_id": 414,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "escalation.urgent.unplanned_discharge"
+  },
+  {
+    "prompt_id": "escalation.urgent.unplanned_discharge.v1",
+    "cluster_id": 414,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "escalation.urgent.unplanned_discharge"
+  },
+  {
+    "prompt_id": "verification.callback.confirm_number.v2",
+    "cluster_id": 445,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "verification.callback.confirm_number"
+  },
+  {
+    "prompt_id": "survey.question.yesno.v3",
+    "cluster_id": 3,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "survey.question.yesno"
+  },
+  {
+    "prompt_id": "org.partnership.specialist.v3",
+    "cluster_id": 388,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "org.partnership.specialist"
+  },
+  {
+    "prompt_id": "escalation.urgent.prescription_gap.v2",
+    "cluster_id": 412,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "escalation.urgent.prescription_gap"
+  },
+  {
+    "prompt_id": "escalation.urgent.prescription_gap.v1",
+    "cluster_id": 412,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "escalation.urgent.prescription_gap"
+  },
+  {
+    "prompt_id": "team.collaboration.case_review.v2",
+    "cluster_id": 81,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "team.collaboration.case_review"
+  },
+  {
+    "prompt_id": "os.error.graceful_recovery.v1",
+    "cluster_id": 357,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "os.error.graceful_recovery"
+  },
+  {
+    "prompt_id": "os.error.graceful_recovery.v3",
+    "cluster_id": 357,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.error.graceful_recovery"
+  },
+  {
+    "prompt_id": "wellness.check.purpose.v3",
+    "cluster_id": 174,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "wellness.check.purpose"
+  },
+  {
+    "prompt_id": "team.notification.flag_social.v1",
+    "cluster_id": 79,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "team.notification.flag_social"
+  },
+  {
+    "prompt_id": "common.referral.acknowledge.v1",
+    "cluster_id": 110,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.referral.acknowledge"
+  },
+  {
+    "prompt_id": "common.referral.acknowledge.v3",
+    "cluster_id": 110,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "common.referral.acknowledge"
+  },
+  {
+    "prompt_id": "org.policy.chaperone.v3",
+    "cluster_id": 490,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "org.policy.chaperone"
+  },
+  {
+    "prompt_id": "org.policy.lone_worker.v3",
+    "cluster_id": 390,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "org.policy.lone_worker"
+  },
+  {
+    "prompt_id": "org.policy.lone_worker.v1",
+    "cluster_id": 390,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "org.policy.lone_worker"
+  },
+  {
+    "prompt_id": "wellness.check.exercise.v3",
+    "cluster_id": 172,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "wellness.check.exercise"
+  },
+  {
+    "prompt_id": "wellness.check.exercise.v2",
+    "cluster_id": 172,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "wellness.check.exercise"
+  },
+  {
+    "prompt_id": "empathy.financial.worry.v3",
+    "cluster_id": 194,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "empathy.financial.worry"
+  },
+  {
+    "prompt_id": "os.style.dignified.v3",
+    "cluster_id": 49,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.style.dignified"
+  },
+  {
+    "prompt_id": "emergency.detection.stroke_signs.v2",
+    "cluster_id": 183,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "emergency.detection.stroke_signs"
+  },
+  {
+    "prompt_id": "emergency.detection.stroke_signs.v3",
+    "cluster_id": 183,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "emergency.detection.stroke_signs"
+  },
+  {
+    "prompt_id": "cognitive.activities.engagement.v3",
+    "cluster_id": 433,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "cognitive.activities.engagement"
+  },
+  {
+    "prompt_id": "cognitive.activities.engagement.v2",
+    "cluster_id": 433,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "cognitive.activities.engagement"
+  },
+  {
+    "prompt_id": "followup.post_procedure.v1",
+    "cluster_id": 176,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "followup.post_procedure"
+  },
+  {
+    "prompt_id": "directive.quality.excellence_standard.v1",
+    "cluster_id": 309,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "directive.quality.excellence_standard"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.evening.v1",
+    "cluster_id": 135,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "greeting.time_of_day.evening"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.evening.v3",
+    "cluster_id": 135,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "greeting.time_of_day.evening"
+  },
+  {
+    "prompt_id": "escalation.urgent.carer_breakdown.v1",
+    "cluster_id": 413,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "escalation.urgent.carer_breakdown"
+  },
+  {
+    "prompt_id": "form.field.full_name.v3",
+    "cluster_id": 22,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "form.field.full_name"
+  },
+  {
+    "prompt_id": "form.field.nok_contact.v1",
+    "cluster_id": 373,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "form.field.nok_contact"
+  },
+  {
+    "prompt_id": "mobility.new_limitation.flag.v1",
+    "cluster_id": 235,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "mobility.new_limitation.flag"
+  },
+  {
+    "prompt_id": "social.transport.access.v1",
+    "cluster_id": 274,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "social.transport.access"
+  },
+  {
+    "prompt_id": "social.transport.access.v3",
+    "cluster_id": 274,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "social.transport.access"
+  },
+  {
+    "prompt_id": "org.policy.no_clinical_advice.v3",
+    "cluster_id": 63,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "org.policy.no_clinical_advice"
+  },
+  {
+    "prompt_id": "org.policy.no_clinical_advice.v2",
+    "cluster_id": 63,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "org.policy.no_clinical_advice"
+  },
+  {
+    "prompt_id": "common.close_loop.confirm.v3",
+    "cluster_id": 498,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "common.close_loop.confirm"
+  },
+  {
+    "prompt_id": "mental_health.sleep.detailed.v3",
+    "cluster_id": 472,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "mental_health.sleep.detailed"
+  },
+  {
+    "prompt_id": "empathy.fear.response.v1",
+    "cluster_id": 193,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "empathy.fear.response"
+  },
+  {
+    "prompt_id": "empathy.fear.response.v2",
+    "cluster_id": 193,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "empathy.fear.response"
+  },
+  {
+    "prompt_id": "os.style.patient.v1",
+    "cluster_id": 40,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "os.style.patient"
+  },
+  {
+    "prompt_id": "os.style.patient.v3",
+    "cluster_id": 40,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.style.patient"
+  },
+  {
+    "prompt_id": "consent.verbal.general.v3",
+    "cluster_id": 282,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "consent.verbal.general"
+  },
+  {
+    "prompt_id": "medication.stopped.check.v2",
+    "cluster_id": 150,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "medication.stopped.check"
+  },
+  {
+    "prompt_id": "medication.stopped.check.v3",
+    "cluster_id": 150,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "medication.stopped.check"
+  },
+  {
+    "prompt_id": "medication.swallowing.difficulty.v2",
+    "cluster_id": 424,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "medication.swallowing.difficulty"
+  },
+  {
+    "prompt_id": "medication.swallowing.difficulty.v1",
+    "cluster_id": 424,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "medication.swallowing.difficulty"
+  },
+  {
+    "prompt_id": "org.values.excellence.v1",
+    "cluster_id": 321,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "org.values.excellence"
+  },
+  {
+    "prompt_id": "os.listening.active.v3",
+    "cluster_id": 316,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "os.listening.active"
+  },
+  {
+    "prompt_id": "os.listening.active.v2",
+    "cluster_id": 316,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.listening.active"
+  },
+  {
+    "prompt_id": "greeting.carer.acknowledgement.v1",
+    "cluster_id": 453,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "greeting.carer.acknowledgement"
+  },
+  {
+    "prompt_id": "pain.breakthrough.management.v1",
+    "cluster_id": 441,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "pain.breakthrough.management"
+  },
+  {
+    "prompt_id": "emergency.detection.breathing.v1",
+    "cluster_id": 185,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "emergency.detection.breathing"
+  },
+  {
+    "prompt_id": "emergency.detection.breathing.v2",
+    "cluster_id": 185,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "emergency.detection.breathing"
+  },
+  {
+    "prompt_id": "insurance.claim.assistance.v2",
+    "cluster_id": 295,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "insurance.claim.assistance"
+  },
+  {
+    "prompt_id": "common.error_handling.v1",
+    "cluster_id": 98,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.error_handling"
+  },
+  {
+    "prompt_id": "common.error_handling.v3",
+    "cluster_id": 98,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "common.error_handling"
+  },
+  {
+    "prompt_id": "followup.action_agreed.confirm.v3",
+    "cluster_id": 360,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "followup.action_agreed.confirm"
+  },
+  {
+    "prompt_id": "followup.action_agreed.confirm.v1",
+    "cluster_id": 360,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "followup.action_agreed.confirm"
+  },
+  {
+    "prompt_id": "form.field.preferred_contact_time.v3",
+    "cluster_id": 35,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "form.field.preferred_contact_time"
+  },
+  {
+    "prompt_id": "form.field.address.v1",
+    "cluster_id": 23,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "form.field.address"
+  },
+  {
+    "prompt_id": "context.service.disruption.v1",
+    "cluster_id": 338,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "context.service.disruption"
+  },
+  {
+    "prompt_id": "receptionist.opening.followup_call.v2",
+    "cluster_id": 116,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "receptionist.opening.followup_call"
+  },
+  {
+    "prompt_id": "receptionist.opening.followup_call.v3",
+    "cluster_id": 116,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "low",
+    "original_prompt_id": "receptionist.opening.followup_call"
+  },
+  {
+    "prompt_id": "team.escalation.clear_handover.v2",
+    "cluster_id": 395,
+    "is_duplicate": true,
+    "duplicate_type": "content_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "team.escalation.clear_handover"
+  },
+  {
+    "prompt_id": "insurance.appeal.process_explain.clone",
+    "cluster_id": 462,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "insurance.appeal.process_explain"
+  },
+  {
+    "prompt_id": "form.field.current_medications.clone",
+    "cluster_id": 30,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.current_medications"
+  },
+  {
+    "prompt_id": "team.training.call_guidance.clone",
+    "cluster_id": 84,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "team.training.call_guidance"
+  },
+  {
+    "prompt_id": "empathy.financial.worry.clone",
+    "cluster_id": 194,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "empathy.financial.worry"
+  },
+  {
+    "prompt_id": "survey.question.with_options.clone",
+    "cluster_id": 1,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "survey.question.with_options"
+  },
+  {
+    "prompt_id": "renewal.change.circumstances.clone",
+    "cluster_id": 199,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "renewal.change.circumstances"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.evening.clone",
+    "cluster_id": 135,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "greeting.time_of_day.evening"
+  },
+  {
+    "prompt_id": "mental_health.medication.review.clone",
+    "cluster_id": 474,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "mental_health.medication.review"
+  },
+  {
+    "prompt_id": "directive.compassion.fatigue.awareness.clone",
+    "cluster_id": 401,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "directive.compassion.fatigue.awareness"
+  },
+  {
+    "prompt_id": "mobility.aids.check.clone",
+    "cluster_id": 232,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "mobility.aids.check"
+  },
+  {
+    "prompt_id": "medication.review.opening.clone",
+    "cluster_id": 146,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "medication.review.opening"
+  },
+  {
+    "prompt_id": "reminder.screening.due.clone",
+    "cluster_id": 216,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "reminder.screening.due"
+  },
+  {
+    "prompt_id": "mental_health.smoking.check.clone",
+    "cluster_id": 356,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "mental_health.smoking.check"
+  },
+  {
+    "prompt_id": "org.policy.chaperone.clone",
+    "cluster_id": 490,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "org.policy.chaperone"
+  },
+  {
+    "prompt_id": "form.field.gp_surgery_details.clone",
+    "cluster_id": 374,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.gp_surgery_details"
+  },
+  {
+    "prompt_id": "consent.data.use.clone",
+    "cluster_id": 284,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "consent.data.use"
+  },
+  {
+    "prompt_id": "context.service.disruption.clone",
+    "cluster_id": 338,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "context.service.disruption"
+  },
+  {
+    "prompt_id": "survey.question.self_care_ability.clone",
+    "cluster_id": 367,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "survey.question.self_care_ability"
+  },
+  {
+    "prompt_id": "pharmacy.generic.explanation.clone",
+    "cluster_id": 249,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "pharmacy.generic.explanation"
+  },
+  {
+    "prompt_id": "team.notification.flag_social.clone",
+    "cluster_id": 79,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "team.notification.flag_social"
+  },
+  {
+    "prompt_id": "common.error_recovery.clone",
+    "cluster_id": 97,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "common.error_recovery"
+  },
+  {
+    "prompt_id": "medication.side_effects.probe.clone",
+    "cluster_id": 151,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "medication.side_effects.probe"
+  },
+  {
+    "prompt_id": "common.privacy.reminder.clone",
+    "cluster_id": 111,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "common.privacy.reminder"
+  },
+  {
+    "prompt_id": "directive.audit.random_sampling.clone",
+    "cluster_id": 495,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "directive.audit.random_sampling"
+  },
+  {
+    "prompt_id": "form.field.allergies.clone",
+    "cluster_id": 29,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.allergies"
+  },
+  {
+    "prompt_id": "insurance.premium.explanation.clone",
+    "cluster_id": 296,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "insurance.premium.explanation"
+  },
+  {
+    "prompt_id": "form.field.communication_needs.clone",
+    "cluster_id": 376,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.communication_needs"
+  },
+  {
+    "prompt_id": "social.community.connection.clone",
+    "cluster_id": 277,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "social.community.connection"
+  },
+  {
+    "prompt_id": "form.field.medical_history.clone",
+    "cluster_id": 31,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.medical_history"
+  },
+  {
+    "prompt_id": "os.language.repeat_differently.clone",
+    "cluster_id": 382,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "os.language.repeat_differently"
+  },
+  {
+    "prompt_id": "appointment.preference.collection.clone",
+    "cluster_id": 160,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "appointment.preference.collection"
+  },
+  {
+    "prompt_id": "form.field.emergency_contact.clone",
+    "cluster_id": 25,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.emergency_contact"
+  },
+  {
+    "prompt_id": "health_check.chronic.heart_failure.clone",
+    "cluster_id": 299,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "health_check.chronic.heart_failure"
+  },
+  {
+    "prompt_id": "care_plan.advance.discussion.clone",
+    "cluster_id": 244,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "care_plan.advance.discussion"
+  },
+  {
+    "prompt_id": "pain.scale.numeric.clone",
+    "cluster_id": 257,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "pain.scale.numeric"
+  },
+  {
+    "prompt_id": "documentation.family.notification.clone",
+    "cluster_id": 470,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "documentation.family.notification"
+  },
+  {
+    "prompt_id": "transition.end_of_life.approach.clone",
+    "cluster_id": 436,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "transition.end_of_life.approach"
+  },
+  {
+    "prompt_id": "cognitive.concern.escalation.clone",
+    "cluster_id": 271,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "cognitive.concern.escalation"
+  },
+  {
+    "prompt_id": "team.notification.flag_safeguarding.clone",
+    "cluster_id": 80,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "team.notification.flag_safeguarding"
+  },
+  {
+    "prompt_id": "team.innovation.prompt_improvement.clone",
+    "cluster_id": 491,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "team.innovation.prompt_improvement"
+  },
+  {
+    "prompt_id": "pain.management.current.clone",
+    "cluster_id": 260,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "pain.management.current"
+  },
+  {
+    "prompt_id": "os.style.encouraging.clone",
+    "cluster_id": 41,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "os.style.encouraging"
+  },
+  {
+    "prompt_id": "transition.returning_home.from_rehab.clone",
+    "cluster_id": 435,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "transition.returning_home.from_rehab"
+  },
+  {
+    "prompt_id": "directive.documentation.real_time.clone",
+    "cluster_id": 95,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "directive.documentation.real_time"
+  },
+  {
+    "prompt_id": "form.field.preferred_contact_time.clone",
+    "cluster_id": 35,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.preferred_contact_time"
+  },
+  {
+    "prompt_id": "directive.wellbeing.holistic_view.clone",
+    "cluster_id": 304,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "directive.wellbeing.holistic_view"
+  },
+  {
+    "prompt_id": "form.field.language_preference.clone",
+    "cluster_id": 34,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.language_preference"
+  },
+  {
+    "prompt_id": "survey.question.overall_satisfaction.clone",
+    "cluster_id": 345,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "survey.question.overall_satisfaction"
+  },
+  {
+    "prompt_id": "pain.breakthrough.management.clone",
+    "cluster_id": 441,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "pain.breakthrough.management"
+  },
+  {
+    "prompt_id": "receptionist.wrong_number.response.clone",
+    "cluster_id": 120,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "receptionist.wrong_number.response"
+  },
+  {
+    "prompt_id": "escalation.clinical.flag.clone",
+    "cluster_id": 206,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "escalation.clinical.flag"
+  },
+  {
+    "prompt_id": "org.policy.call_recording.clone",
+    "cluster_id": 61,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "org.policy.call_recording"
+  },
+  {
+    "prompt_id": "receptionist.queue.explanation.clone",
+    "cluster_id": 482,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "receptionist.queue.explanation"
+  },
+  {
+    "prompt_id": "greeting.long_absence.reconnect.clone",
+    "cluster_id": 455,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "greeting.long_absence.reconnect"
+  },
+  {
+    "prompt_id": "documentation.exception.note.clone",
+    "cluster_id": 291,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "documentation.exception.note"
+  },
+  {
+    "prompt_id": "verification.identity.clone",
+    "cluster_id": 126,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "verification.identity"
+  },
+  {
+    "prompt_id": "form.field.prompt.clone",
+    "cluster_id": 20,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "form.field.prompt"
+  },
+  {
+    "prompt_id": "os.listening.no_multitasking.clone",
+    "cluster_id": 317,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "os.listening.no_multitasking"
+  },
+  {
+    "prompt_id": "reminder.medication.refill.clone",
+    "cluster_id": 214,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "reminder.medication.refill"
+  },
+  {
+    "prompt_id": "context.pandemic.check.clone",
+    "cluster_id": 336,
+    "is_duplicate": true,
+    "duplicate_type": "exact_clone",
+    "similarity_level": "exact",
+    "original_prompt_id": "context.pandemic.check"
+  },
+  {
+    "prompt_id": "health_check.chronic.diabetes.cross_a",
+    "cluster_id": 298,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "health_check.chronic.diabetes"
+  },
+  {
+    "prompt_id": "health_check.chronic.diabetes.cross_b",
+    "cluster_id": 298,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "health_check.chronic.diabetes"
+  },
+  {
+    "prompt_id": "documentation.call.log.cross_a",
+    "cluster_id": 289,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "documentation.call.log"
+  },
+  {
+    "prompt_id": "documentation.call.log.cross_b",
+    "cluster_id": 289,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "documentation.call.log"
+  },
+  {
+    "prompt_id": "fall_prevention.vision.check.cross_a",
+    "cluster_id": 267,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "fall_prevention.vision.check"
+  },
+  {
+    "prompt_id": "fall_prevention.vision.check.cross_b",
+    "cluster_id": 267,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "fall_prevention.vision.check"
+  },
+  {
+    "prompt_id": "appointment.transport.check.cross_a",
+    "cluster_id": 161,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "appointment.transport.check"
+  },
+  {
+    "prompt_id": "appointment.transport.check.cross_b",
+    "cluster_id": 161,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "appointment.transport.check"
+  },
+  {
+    "prompt_id": "nutrition.supplements.check.cross_a",
+    "cluster_id": 478,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "nutrition.supplements.check"
+  },
+  {
+    "prompt_id": "nutrition.supplements.check.cross_b",
+    "cluster_id": 478,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "nutrition.supplements.check"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.morning.cross_a",
+    "cluster_id": 133,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "greeting.time_of_day.morning"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.morning.cross_b",
+    "cluster_id": 133,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "greeting.time_of_day.morning"
+  },
+  {
+    "prompt_id": "common.distress.response.cross_a",
+    "cluster_id": 104,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.distress.response"
+  },
+  {
+    "prompt_id": "common.distress.response.cross_b",
+    "cluster_id": 104,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.distress.response"
+  },
+  {
+    "prompt_id": "org.audit.trail.cross_a",
+    "cluster_id": 342,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "org.audit.trail"
+  },
+  {
+    "prompt_id": "org.audit.trail.cross_b",
+    "cluster_id": 342,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "org.audit.trail"
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.cross_a",
+    "cluster_id": 366,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "survey.question.living_alone_risk"
+  },
+  {
+    "prompt_id": "survey.question.living_alone_risk.cross_b",
+    "cluster_id": 366,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "survey.question.living_alone_risk"
+  },
+  {
+    "prompt_id": "appointment.preference.collection.cross_a",
+    "cluster_id": 160,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "appointment.preference.collection"
+  },
+  {
+    "prompt_id": "appointment.preference.collection.cross_b",
+    "cluster_id": 160,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "appointment.preference.collection"
+  },
+  {
+    "prompt_id": "receptionist.carer.proxy_call.cross_a",
+    "cluster_id": 122,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "receptionist.carer.proxy_call"
+  },
+  {
+    "prompt_id": "receptionist.carer.proxy_call.cross_b",
+    "cluster_id": 122,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "receptionist.carer.proxy_call"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.evening.cross_a",
+    "cluster_id": 135,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "greeting.time_of_day.evening"
+  },
+  {
+    "prompt_id": "greeting.time_of_day.evening.cross_b",
+    "cluster_id": 135,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "greeting.time_of_day.evening"
+  },
+  {
+    "prompt_id": "renewal.declined.response.cross_a",
+    "cluster_id": 202,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "renewal.declined.response"
+  },
+  {
+    "prompt_id": "renewal.declined.response.cross_b",
+    "cluster_id": 202,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "renewal.declined.response"
+  },
+  {
+    "prompt_id": "org.branding.value_statement.cross_a",
+    "cluster_id": 67,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "org.branding.value_statement"
+  },
+  {
+    "prompt_id": "org.branding.value_statement.cross_b",
+    "cluster_id": 67,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "org.branding.value_statement"
+  },
+  {
+    "prompt_id": "org.training.continuous.cross_a",
+    "cluster_id": 343,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "org.training.continuous"
+  },
+  {
+    "prompt_id": "org.training.continuous.cross_b",
+    "cluster_id": 343,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "org.training.continuous"
+  },
+  {
+    "prompt_id": "directive.time.no_rushing.cross_a",
+    "cluster_id": 330,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "directive.time.no_rushing"
+  },
+  {
+    "prompt_id": "directive.time.no_rushing.cross_b",
+    "cluster_id": 330,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "directive.time.no_rushing"
+  },
+  {
+    "prompt_id": "medication.reminder.service.cross_a",
+    "cluster_id": 153,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "medication.reminder.service"
+  },
+  {
+    "prompt_id": "medication.reminder.service.cross_b",
+    "cluster_id": 153,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "medication.reminder.service"
+  },
+  {
+    "prompt_id": "mobility.outdoor.access.cross_a",
+    "cluster_id": 234,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "mobility.outdoor.access"
+  },
+  {
+    "prompt_id": "mobility.outdoor.access.cross_b",
+    "cluster_id": 234,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "mobility.outdoor.access"
+  },
+  {
+    "prompt_id": "mobility.physio.engagement.cross_a",
+    "cluster_id": 475,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "mobility.physio.engagement"
+  },
+  {
+    "prompt_id": "mobility.physio.engagement.cross_b",
+    "cluster_id": 475,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "mobility.physio.engagement"
+  },
+  {
+    "prompt_id": "os.style.forward_looking.cross_a",
+    "cluster_id": 384,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.style.forward_looking"
+  },
+  {
+    "prompt_id": "os.style.forward_looking.cross_b",
+    "cluster_id": 384,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.style.forward_looking"
+  },
+  {
+    "prompt_id": "care_plan.carer.assessment.cross_a",
+    "cluster_id": 479,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "care_plan.carer.assessment"
+  },
+  {
+    "prompt_id": "care_plan.carer.assessment.cross_b",
+    "cluster_id": 479,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "care_plan.carer.assessment"
+  },
+  {
+    "prompt_id": "os.style.professional.cross_a",
+    "cluster_id": 37,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "os.style.professional"
+  },
+  {
+    "prompt_id": "os.style.professional.cross_b",
+    "cluster_id": 37,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "os.style.professional"
+  },
+  {
+    "prompt_id": "survey.question.open_ended.cross_a",
+    "cluster_id": 4,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "survey.question.open_ended"
+  },
+  {
+    "prompt_id": "survey.question.open_ended.cross_b",
+    "cluster_id": 4,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "survey.question.open_ended"
+  },
+  {
+    "prompt_id": "org.mission.reinforce.cross_a",
+    "cluster_id": 318,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "org.mission.reinforce"
+  },
+  {
+    "prompt_id": "org.mission.reinforce.cross_b",
+    "cluster_id": 318,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "org.mission.reinforce"
+  },
+  {
+    "prompt_id": "documentation.flag.review.cross_a",
+    "cluster_id": 288,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "documentation.flag.review"
+  },
+  {
+    "prompt_id": "documentation.flag.review.cross_b",
+    "cluster_id": 288,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "documentation.flag.review"
+  },
+  {
+    "prompt_id": "os.style.structured.cross_a",
+    "cluster_id": 51,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.style.structured"
+  },
+  {
+    "prompt_id": "os.style.structured.cross_b",
+    "cluster_id": 51,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "os.style.structured"
+  },
+  {
+    "prompt_id": "social.financial.check.cross_a",
+    "cluster_id": 275,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "social.financial.check"
+  },
+  {
+    "prompt_id": "social.financial.check.cross_b",
+    "cluster_id": 275,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "social.financial.check"
+  },
+  {
+    "prompt_id": "common.end_of_call.summary.cross_a",
+    "cluster_id": 109,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "common.end_of_call.summary"
+  },
+  {
+    "prompt_id": "common.end_of_call.summary.cross_b",
+    "cluster_id": 109,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "common.end_of_call.summary"
+  },
+  {
+    "prompt_id": "pain.character.description.cross_a",
+    "cluster_id": 259,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "pain.character.description"
+  },
+  {
+    "prompt_id": "pain.character.description.cross_b",
+    "cluster_id": 259,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "pain.character.description"
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen.cross_a",
+    "cluster_id": 477,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "nutrition.malnutrition.screen"
+  },
+  {
+    "prompt_id": "nutrition.malnutrition.screen.cross_b",
+    "cluster_id": 477,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "nutrition.malnutrition.screen"
+  },
+  {
+    "prompt_id": "followup.referral.outcome.cross_a",
+    "cluster_id": 178,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "followup.referral.outcome"
+  },
+  {
+    "prompt_id": "followup.referral.outcome.cross_b",
+    "cluster_id": 178,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "followup.referral.outcome"
+  },
+  {
+    "prompt_id": "common.good_news.acknowledge.cross_a",
+    "cluster_id": 451,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.good_news.acknowledge"
+  },
+  {
+    "prompt_id": "common.good_news.acknowledge.cross_b",
+    "cluster_id": 451,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.good_news.acknowledge"
+  },
+  {
+    "prompt_id": "form.field.preferred_contact_time.cross_a",
+    "cluster_id": 35,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "form.field.preferred_contact_time"
+  },
+  {
+    "prompt_id": "form.field.preferred_contact_time.cross_b",
+    "cluster_id": 35,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "form.field.preferred_contact_time"
+  },
+  {
+    "prompt_id": "common.sensitive_topic.approach.cross_a",
+    "cluster_id": 450,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.sensitive_topic.approach"
+  },
+  {
+    "prompt_id": "common.sensitive_topic.approach.cross_b",
+    "cluster_id": 450,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "common.sensitive_topic.approach"
+  },
+  {
+    "prompt_id": "verification.dob.cross_a",
+    "cluster_id": 125,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "verification.dob"
+  },
+  {
+    "prompt_id": "verification.dob.cross_b",
+    "cluster_id": 125,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "verification.dob"
+  },
+  {
+    "prompt_id": "empathy.loss.bereavement.cross_a",
+    "cluster_id": 189,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "empathy.loss.bereavement"
+  },
+  {
+    "prompt_id": "empathy.loss.bereavement.cross_b",
+    "cluster_id": 189,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "empathy.loss.bereavement"
+  },
+  {
+    "prompt_id": "closing.emergency_referred.cross_a",
+    "cluster_id": 145,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "closing.emergency_referred"
+  },
+  {
+    "prompt_id": "closing.emergency_referred.cross_b",
+    "cluster_id": 145,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "closing.emergency_referred"
+  },
+  {
+    "prompt_id": "team.notification.flag_safeguarding.cross_a",
+    "cluster_id": 80,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "team.notification.flag_safeguarding"
+  },
+  {
+    "prompt_id": "team.notification.flag_safeguarding.cross_b",
+    "cluster_id": 80,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "team.notification.flag_safeguarding"
+  },
+  {
+    "prompt_id": "safety.extreme_weather.check.cross_a",
+    "cluster_id": 224,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "safety.extreme_weather.check"
+  },
+  {
+    "prompt_id": "safety.extreme_weather.check.cross_b",
+    "cluster_id": 224,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "high",
+    "original_prompt_id": "safety.extreme_weather.check"
+  },
+  {
+    "prompt_id": "wellness.check.spirituality.cross_a",
+    "cluster_id": 426,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "wellness.check.spirituality"
+  },
+  {
+    "prompt_id": "wellness.check.spirituality.cross_b",
+    "cluster_id": 426,
+    "is_duplicate": true,
+    "duplicate_type": "cross_paraphrase",
+    "similarity_level": "medium",
+    "original_prompt_id": "wellness.check.spirituality"
+  }
+]
