@@ -10,13 +10,13 @@ A FastAPI service for semantic similarity search and duplicate detection across 
 - [Setup](#setup)
 - [API Reference](#api-reference)
 - [Embedding Strategy](#embedding-strategy)
-- [Score Compression and False Positive Risk](#score-compression-and-false-positive-risk)
 - [Similarity Algorithm](#similarity-algorithm)
-- [Threshold Tuning](#threshold-tuning)
 - [Clustering Approach](#clustering-approach)
+- [Threshold Tuning](#threshold-tuning)
 - [Benchmarks](#benchmarks)
 - [Architecture Decisions](#architecture-decisions)
-- [Improvements With More Time](#improvements-with-more-time)
+- [Known Limitations](#known-limitations)
+- [Future Improvements](#future-improvements)
 - [Assumptions Made](#assumptions-made)
 
 ---
@@ -34,46 +34,85 @@ Key capabilities:
 
 ## Setup
 
+### Prerequisites
+
+- Python 3.11+
+- [uv](https://docs.astral.sh/uv/getting-started/installation/) package manager
+- An [OpenAI API key](https://platform.openai.com/api-keys)
+
+### Installation
+
 ```bash
-# Install with uv
+git clone https://github.com/Amalraj99thomas/similarity_service_case_study.git
+cd similarity_service_case_study
+
 uv sync
+```
 
-# Set your API key
+### Configuration
+
+Create a `.env` file in the project root (or export the variable directly):
+
+```bash
+cp .env.example .env
+# Edit .env and add your OpenAI API key
+```
+
+Or export it directly:
+
+```bash
 export OPENAI_API_KEY=sk-...
+```
 
-# Start the server
+### Start the server
+
+```bash
 uv run uvicorn prompt_similarity.app:app --reload
 ```
 
-Optional extras:
+The service will be available at `http://localhost:8000`. You can verify it's running:
 
 ```bash
-uv sync --extra ui      # Streamlit frontend
-uv sync --extra eval    # Evaluation scripts
-uv sync --extra dev     # Tests
+curl http://localhost:8000/health
 ```
 
-Seed the database on first run:
+### Seed the database
+
+On first run, load prompts to generate embeddings:
 
 ```bash
 curl -X POST http://localhost:8000/api/embeddings/generate \
   -H "Content-Type: application/json" \
-  -d @data/clusters/prompts_1000_with_dups.json
+  -d @data/clustering/prompts_with_dups.json
+```
+
+Or use the CLI:
+
+```bash
+uv run prompt-similarity generate --file data/clustering/prompts_with_dups.json
 ```
 
 ### CLI
 
 ```bash
 uv run prompt-similarity health
-uv run prompt-similarity generate --file data/clusters/prompts_1000_with_dups.json
 uv run prompt-similarity search "greet the patient warmly"
+uv run prompt-similarity similar receptionist.greeting --threshold 0.69
 uv run prompt-similarity duplicates --threshold 0.85
 ```
 
 ### Streamlit UI
 
 ```bash
-uv run streamlit run src/prompt_similarity/streamlit_app.py
+uv sync --extra ui
+uv run streamlit run prompt_similarity/streamlit_app.py
+```
+
+### Tests
+
+```bash
+uv sync --extra dev
+uv run pytest
 ```
 
 ---
@@ -111,7 +150,6 @@ curl "http://localhost:8000/api/prompts/greeting.base/similar?limit=5&threshold=
 | `limit`     | 5       | Max results to return                |
 | `threshold` | 0.69    | Minimum adjusted similarity (0–1)    |
 
-Response includes both `similarity_score` (after category/layer adjustment) and `raw_score` (raw cosine similarity) so callers can inspect the adjustment delta.
 
 ---
 
@@ -135,7 +173,7 @@ Clusters all prompts by cosine similarity using complete-linkage agglomerative c
 curl "http://localhost:8000/api/analysis/duplicates?threshold=0.85"
 ```
 
-**Recommended threshold: 0.85** — see [Clustering Approach](#clustering-approach) for full rationale.
+**Recommended threshold: 0.85** — see [Threshold Tuning](#threshold-tuning) for full rationale.
 
 Example response:
 ```json
@@ -181,7 +219,7 @@ curl http://localhost:8000/health
 
 ### Choice of model
 
-Three embedding models were evaluated against 30 manually labeled prompt pairs from the production library, split across three tiers: HIGH (near-duplicates, expected ≥ 0.75), MEDIUM (related but distinct, expected 0.45–0.74), and LOW (cross-domain, expected < 0.44).
+Three embedding models were evaluated against 30 manually labeled prompt pairs with `prompts_500` synthetically generated set, split across three tiers: HIGH (near-duplicates, expected ≥ 0.75), MEDIUM (related but distinct, expected 0.45–0.74), and LOW (cross-domain, expected < 0.44).
 
 | Model | Dimensions | Source | Latency |
 |---|---|---|---|
@@ -189,7 +227,7 @@ Three embedding models were evaluated against 30 manually labeled prompt pairs f
 | `text-embedding-3-small` | 1536 | OpenAI API | ~15ms/prompt (network) |
 | `text-embedding-3-large` | 3072 | OpenAI API | ~22ms/prompt (network) |
 
-Results on the 16 pairs scored across all three models:
+Results on the pairs scored across all three models:
 
 | Metric | MiniLM | text-embedding-3-small | text-embedding-3-large |
 |---|---|---|---|
@@ -205,11 +243,11 @@ Results on the 16 pairs scored across all three models:
 | `vitals.blood_pressure` vs `vitals.blood_sugar` | 0.536 | 0.720 | 0.711 | Clinical specifics dominated over identical home-monitoring workflow |
 | `emergency.detection.chest_pain` vs `emergency.detection.stroke_signs` | 0.539 | 0.562 | 0.661 | Large model better captures shared emergency-escalation intent despite different symptoms |
 
-**`text-embedding-3-small` was selected** despite `text-embedding-3-large` having a marginally wider score gap. At 500+ prompts the large model costs roughly 8× more per embed call, and the 0.016 gap improvement does not justify the ongoing API cost for a library of this scale. If the library grows to tens of thousands of prompts or the domain expands significantly, re-evaluating `text-embedding-3-large` would be worthwhile.
+**`text-embedding-3-small` was selected** despite `text-embedding-3-large` having a marginally wider score gap. At this scale the large model costs roughly 8× more per embed call, and the 0.016 gap improvement does not justify the ongoing API costs. If the library grows to tens of thousands of prompts or the domain expands significantly, re-evaluating `text-embedding-3-large` would be worthwhile.
 
 ### Batching
 
-The embedding API accepts up to 2048 inputs per call. To handle libraries larger than that limit safely, the `_embed` function processes texts in chunks of 512, concatenating results before normalisation. This also reduces memory pressure on large re-embed jobs and keeps individual API calls within a predictable latency window.
+The `text-embedding-3-small` API accepts up to 2048 inputs per call. To handle libraries larger than that limit safely, the `_embed` function processes texts in chunks of 512, concatenating results before normalisation. This also reduces memory pressure on large re-embed jobs and keeps individual API calls within a predictable latency window.
 
 ### Handling of template variables
 
@@ -241,68 +279,12 @@ def _expand_variable(var: str) -> str:
 
 This was validated against variable-heavy edge cases. A prompt that is almost entirely variables (`{{greeting}} {{patient_name}}. {{introduction}}. {{purpose_statement}}.`) correctly matched its natural language equivalent at 0.73 — the normalisation preserved enough semantic signal.
 
----
-
-## Score Compression and False Positive Risk
-
-### The compression problem
-
-On 500 healthcare voice AI prompts, shared domain vocabulary ("patient", "ask", "call", "respond") pulls embeddings into a narrow region of the vector space. Roughly 80% of pairwise scores fall between 0.45 and 0.70:
-
-| Group | Avg score | Min | Max |
-|---|---|---|---|
-| HIGH (genuine near-duplicates) | 0.697 | 0.458 | 0.882 |
-| MEDIUM (related but distinct) | 0.601 | 0.556 | 0.687 |
-
-The 0.096 gap between averages is meaningful, but individual pairs still overlap in the 0.60–0.70 band — no single raw cosine threshold cleanly separates HIGH from MEDIUM.
-
-### False positive case: ask_dob_verify vs ask_dob_form
-
-The most significant false positive found in testing:
-
-- `test.false_friend.ask_dob_verify` — asks for date of birth **to verify identity**
-- `test.false_friend.ask_dob_form` — asks for date of birth **to pre-populate a registration form**
-
-Raw cosine similarity: **0.7643** — above the 0.69 threshold. Both share the phrase "ask for the patient's date of birth" but have different intents. This would surface as a false duplicate suggestion in production without mitigation.
-
-### Mitigation: category/layer score adjustment
-
-A post-scoring adjustment is applied to all `find_similar` and `duplicates` results before threshold filtering:
-
-```python
-def _adjusted_score(score: float, prompt_a: dict, prompt_b: dict) -> float:
-    if prompt_a["category"] == prompt_b["category"]:
-        score += 0.05   # same category — reward topical similarity
-    else:
-        score -= 0.05   # different category — penalise false friends
-    if prompt_a["layer"] == prompt_b["layer"]:
-        score += 0.03   # same layer — small structural bonus
-    return min(max(score, 0.0), 1.0)
-```
-
-Effect on key pairs:
-
-| Pair | Raw | Adjusted |
-|---|---|---|
-| `ask_dob_verify` vs `ask_dob_form` (different category) | 0.7643 | 0.7443 |
-| `verification.dob` vs `verification.identity` (same category + layer) | 0.8817 | 0.9617 |
-
-The adjustment widens separation between genuine near-duplicates (same category, boosted) and false friends (different category, penalised). Both `similarity_score` (adjusted) and `raw_score` are returned in the API response so callers can inspect the delta.
-
-### Known limitations
-
-Pairs that remain ambiguous regardless of threshold tuning — documented as expected MEDIUM behaviour, not bugs:
-
-- Prompts sharing a strong opening phrase ("If the patient mentions...") but diverging in clinical action
-- Prompts with identical workflow structure but different medical domains (blood pressure monitoring vs blood sugar monitoring)
-
-These represent different clinical intents and should not be merged. They are only surfaced when callers explicitly lower the threshold below 0.69.
 
 ---
 
 ## Similarity Algorithm
 
-All similarity search uses **cosine similarity** computed as the dot product of L2-normalised vectors. Vectors are normalised at embed time, so the dot product between any two stored vectors equals their cosine similarity — no per-query normalisation needed.
+All similarity search uses **cosine similarity** computed as the dot product of L2-normalised vectors. Vectors are normalised at embed time, so the dot product between any two stored vectors equals their cosine similarity.
 
 ```python
 # At embed time — normalise once
@@ -316,40 +298,39 @@ scores_mat = vec_cache @ vec_cache.T    # duplicates (all-pairs)
 
 The all-pairs matrix for 500 prompts is a 500×500 float32 array (~1MB) computed in a single NumPy matrix multiply — no loop required.
 
+
+---
+
+## Clustering Approach
+
+### Algorithm
+
+The `/api/analysis/duplicates` endpoint uses **complete-linkage agglomerative clustering** on the precomputed all-pairs cosine similarity matrix.
+
+Complete linkage requires that **all pairs** within a cluster exceed the similarity threshold before merging. This prevents the chaining problem common in Union-Find / single-linkage approaches
+
+
+### Merge suggestions
+
+Each cluster's response includes a `merge_suggestion` containing the union of all `{{template variables}}` across cluster members. This gives a concrete starting point for consolidating duplicates into a single unified template without losing any variable slots used by either version.
+
 ---
 
 ## Threshold Tuning
 
 ### find_similar threshold (0.69)
 
-The threshold for `/api/prompts/{prompt_id}/similar` was found by F1 calibration over 30 manually labeled pairs, sweeping 0.40 to 0.95 in 0.01 steps. HIGH pairs are treated as positive (label=1), MEDIUM and LOW as negative (label=0):
+#### Evaluation Setup
 
-```python
-import numpy as np
+| Item | Detail |
+|---|---|
+| Test set source | `similarity/prompts_500.json` |
+| Test set size | 500 prompts |
+| Eval set size | 30 (manually labelled) |
 
-pairs = [
-    # HIGH pairs (label=1) — OpenAI text-embedding-3-small scores
-    (0.8817, 1), (0.7875, 1), (0.7962, 1), (0.7273, 1),
-    (0.4582, 1), (0.5617, 1), (0.7195, 1), (0.6345, 1),
-    (0.8163, 1), (0.5888, 1),
-    # MEDIUM/LOW pairs (label=0)
-    (0.5977, 0), (0.6024, 0), (0.5918, 0), (0.5559, 0),
-    (0.5695, 0), (0.6089, 0), (0.6346, 0), (0.5602, 0), (0.6872, 0),
-    (0.4542, 0), (0.4373, 0),
-]
 
-best_f1, best_threshold = 0, 0
-for threshold in np.arange(0.40, 0.95, 0.01):
-    tp = sum(1 for s, l in pairs if s >= threshold and l == 1)
-    fp = sum(1 for s, l in pairs if s >= threshold and l == 0)
-    fn = sum(1 for s, l in pairs if s <  threshold and l == 1)
-    precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-    recall    = tp / (tp + fn) if (tp + fn) > 0 else 0
-    f1 = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0
-    if f1 > best_f1:
-        best_f1, best_threshold = f1, threshold
-# Result: Best threshold = 0.69, F1 = 0.750
-```
+The threshold for `/api/prompts/{prompt_id}/similar` was approximated by F1 calibration over 30 manually labeled pairs, sweeping 0.40 to 0.95 in 0.01 steps. HIGH pairs are treated as positive (label=1), MEDIUM and LOW as negative (label=0):
+
 
 Tradeoff curve at key thresholds:
 
@@ -362,41 +343,15 @@ Tradeoff curve at key thresholds:
 
 **0.69 selected** — precision reaches 1.0 (zero false positives) at 60% recall. The 4 missed HIGH pairs are borderline cases where the model correctly distinguishes different clinical specifics. Callers wanting broader recall can pass `threshold=0.61` at the cost of ~2 false positives per 9 results.
 
-### Duplicates threshold (0.85)
 
-See [Clustering Approach](#clustering-approach) for the full sweep and rationale.
-
----
-
-## Clustering Approach
-
-### Algorithm
-
-The `/api/analysis/duplicates` endpoint uses **complete-linkage agglomerative clustering** on the precomputed all-pairs cosine similarity matrix.
-
-Complete linkage requires that **all pairs** within a cluster exceed the similarity threshold before merging. This prevents the chaining problem common in Union-Find / single-linkage approaches:
-
-```
-# Single linkage (Union-Find) — chaining problem
-A --0.91-- B --0.91-- C
-→ A, B, C all merged even if A↔C = 0.74
-
-# Complete linkage — chain broken correctly
-A --0.91-- B --0.91-- C   (A↔C = 0.74, below threshold)
-→ {A, B} and {B, C} evaluated separately — no false merge
-```
-
-### Merge suggestions
-
-Each cluster's response includes a `merge_suggestion` containing the union of all `{{template variables}}` across cluster members. This gives a concrete starting point for consolidating duplicates into a single unified template without losing any variable slots used by either version.
-
-### Threshold selection (0.85)
+### find_duplicates threshold selection (0.85)
 
 #### Evaluation setup
 
 | Item | Detail |
 |---|---|
 | Test set size | 757 prompts |
+| Test set source | `clustering/prompts_with_dups.json` |
 | Originals | 500 (production library) |
 | Injected duplicates | 257 across 3 strategies |
 | Ground truth clusters | 164 duplicate clusters, 421 member prompts |
@@ -435,9 +390,23 @@ At threshold 0.85, two cross-category matches were manually reviewed:
 
 **Case 2** — `verification.member_id` ↔ `form.field.insurance_id` (0.8927): Near word-for-word identical — ask for insurance/member ID, offer to help locate it, confirm digit by digit. **Confirmed genuine duplicate.**
 
-#### Chain/drift analysis
 
-240 chained prompts (60 originals × 4 progressive paraphrase hops) were used to stress-test chaining. Even hop4 (heavily reworded) scored 0.83–0.93 against its original — `text-embedding-3-small` is semantically stable across paraphrase depth. Complete linkage correctly split chains where similarity genuinely dropped below threshold, forming separate subclusters rather than one large false-positive chain cluster.
+### Edge cases
+
+32 handcrafted prompts (`edge_case_prompts.json`) were used to stress-test similarity scoring across six categories that commonly cause problems in production:
+
+| Category | Pair example | Score | Observation |
+|---|---|---|---|
+| Exact duplicates | `error_recovery.A` ↔ `error_recovery.B` | 1.00 | Identical content correctly scores 1.0 |
+| Paraphrases | `verify_dob.original` ↔ `verify_dob.rephrased` | 0.81 | Moderate rewording stays well above the 0.69 threshold |
+| Typo variants | `verify_dob.clean` ↔ `verify_dob.typos` | 0.88 | Heavy misspellings have minimal impact on embedding similarity |
+| Short prompts | `greet_1` ↔ `greet_2` | 0.63 | Short prompts lack enough semantic signal to score above threshold — expected behaviour |
+| Variable-heavy | `booking.lots_of_vars` ↔ `booking.few_vars` | 0.75 | Variable expansion preserves enough intent to score above threshold |
+| Variable-heavy | `almost_all_vars` ↔ `no_vars_equivalent` | 0.72 | A near-entirely-variable prompt still matches its natural language equivalent |
+| False friends | `ask_dob_verify` ↔ `ask_dob_form` | 0.76 | Shared surface text but different intent — see [Known Limitations](#known-limitations) |
+
+The typo variant result (0.88) confirms that `text-embedding-3-small` is robust to misspellings — the model embeds semantic intent rather than exact character sequences. The short prompt result (0.63) is a known limitation: prompts under ~10 words lack enough context for the model to distinguish related intents, so they fall below the similarity threshold even when semantically close.
+
 
 > **Threshold set to 0.85** based on empirical evaluation achieving 99.7% pair F1 on a labeled test set of 757 prompts, confirmed by manual review of cross-category edge cases.
 
@@ -451,9 +420,10 @@ All measurements taken on an Intel Core i7-10750H CPU @ 2.60GHz, 16GB RAM, with 
 
 | Batch size | Total time | Time per prompt |
 |---|---|---|
-| 500 prompts (initial seed) | ~7.2s | ~14ms |
-| 50 prompts (incremental update) | ~0.9s | ~18ms |
-| 10 prompts | ~0.4s | ~40ms |
+| 500 prompts | ~2.3s | ~4ms |
+| 257 prompts | ~2.8s | ~4ms |
+| 32 prompts | ~1.7s | ~54ms |
+
 
 Latency is dominated by the OpenAI API round-trip. Larger batches are more efficient — the API accepts up to 2048 inputs per call.
 
@@ -462,10 +432,72 @@ Latency is dominated by the OpenAI API round-trip. Larger batches are more effic
 | Operation | Prompts indexed | Latency |
 |---|---|---|
 | `find_similar` | 500 | < 1ms |
-| `find_similar` | 2000 | < 3ms |
-| `semantic_search` | 500 | ~14ms (embed) + < 1ms (search) |
-| `duplicates` (all-pairs) | 500 | ~12ms |
-| `duplicates` (all-pairs) | 2000 | ~180ms |
+| `find_similar` | 1000 | < 1ms |
+| `semantic_search` | 500 | ~800ms (embed) + < 1ms (search) |
+| `semantic_search` | 1000 | ~280ms (embed) + < 1ms (search) |
+| `duplicates` (all-pairs) | 500 | ~38ms |
+| `duplicates` (all-pairs) | 1000 | ~57ms |
+
+---
+
+## Architecture Decisions
+
+### SQLite + NumPy instead of a vector database
+
+For current prompt library scale (hundreds to low thousands), a vector database adds operational complexity with no algorithmic benefit. Brute-force NumPy dot product is O(n) exact search — identical to `IndexFlatIP` in FAISS but with zero infrastructure overhead.
+
+SQLite is the single source of truth. Vectors are loaded into a NumPy matrix at startup and held in memory for zero-latency search. Migrate to a vector database (Pinecone, Weaviate, pgvector) when n exceeds ~50k prompts and query latency becomes a concern.
+
+### Normalising template variables before embedding
+
+Without normalisation, `{{patient_name}}` and `{{caller_name}}` embed as literal token strings. Semantically identical prompts with different variable names score lower than they should. Expanding variables to natural language phrases lets the model see the semantic intent of each slot, making similarity scores reflect what the prompt actually does rather than how it is literally written.
+
+### Complete linkage over Union-Find
+
+Union-Find (single linkage) merges clusters when **any** pair exceeds the threshold, causing chaining: A≈B and B≈C causes A and C to merge even when A↔C is below threshold. Complete linkage requires **all** pairs to exceed the threshold, eliminating this failure mode with no additional computational cost since the full similarity matrix is already computed.
+
+---
+
+## Known Limitations
+
+### The compression problem
+
+On 500 healthcare voice AI prompts, shared domain vocabulary ("patient", "ask", "call", "respond") pulls embeddings into a narrow region of the vector space. Roughly 80% of pairwise scores fall between 0.45 and 0.70. No single raw cosine threshold can confidently separate the HIGH and MEDIUM tiers.
+
+### False positive case: ask_dob_verify vs ask_dob_form
+
+The most significant false positive found in testing:
+
+- `test.false_friend.ask_dob_verify` — asks for date of birth **to verify identity**
+- `test.false_friend.ask_dob_form` — asks for date of birth **to pre-populate a registration form**
+
+Raw cosine similarity: **0.7643** — above the 0.69 threshold. Both share the phrase "ask for the patient's date of birth" but have different intents. This would surface as a false duplicate suggestion in production without mitigation.
+
+#### Mitigation: category/layer score adjustment
+
+A post-scoring adjustment applied to all `find_similar` and `duplicates` results before threshold filtering:
+
+```python
+def _adjusted_score(score: float, prompt_a: dict, prompt_b: dict) -> float:
+    if prompt_a["category"] == prompt_b["category"]:
+        score += 0.05   # same category — reward topical similarity
+    else:
+        score -= 0.05   # different category — penalise false friends
+    if prompt_a["layer"] == prompt_b["layer"]:
+        score += 0.03   # same layer — small structural bonus
+    return min(max(score, 0.0), 1.0)
+```
+
+Effect on key pairs:
+
+| Pair | Raw | Adjusted |
+|---|---|---|
+| `ask_dob_verify` vs `ask_dob_form` (different category) | 0.7643 | 0.7443 |
+| `verification.dob` vs `verification.identity` (same category + layer) | 0.8817 | 0.9617 |
+
+The adjustment widens separation between genuine near-duplicates (same category, boosted) and false friends (different category, penalised). Both `similarity_score` (adjusted) and `raw_score` can be returned in the API response so callers can inspect the delta.
+
+### Storage of O(n^2)
 
 All-pairs clustering scales as O(n²). At 2000 prompts the matrix is ~16MB. Beyond ~50k prompts, approximate nearest-neighbour search (FAISS HNSW, Annoy) would be warranted.
 
@@ -479,41 +511,37 @@ All-pairs clustering scales as O(n²). At 2000 prompts the matrix is ~16MB. Beyo
 
 ---
 
-## Architecture Decisions
-
-### SQLite + NumPy instead of a vector database
-
-At prompt library scale (hundreds to low thousands), a vector database adds operational complexity with no algorithmic benefit. Brute-force NumPy dot product is O(n) exact search — identical to `IndexFlatIP` in FAISS but with zero infrastructure overhead.
-
-SQLite is the single source of truth. Vectors are loaded into a NumPy matrix at startup and held in memory for zero-latency search. Migrate to a vector database (Pinecone, Weaviate, pgvector) when n exceeds ~50k prompts and query latency becomes a concern.
-
-### Complete linkage over Union-Find
-
-Union-Find (single linkage) merges clusters when **any** pair exceeds the threshold, causing chaining: A≈B and B≈C causes A and C to merge even when A↔C is below threshold. Complete linkage requires **all** pairs to exceed the threshold, eliminating this failure mode with no additional computational cost since the full similarity matrix is already computed.
-
-### Normalising template variables before embedding
-
-Without normalisation, `{{patient_name}}` and `{{caller_name}}` embed as literal token strings. Semantically identical prompts with different variable names score lower than they should. Expanding variables to natural language phrases lets the model see the semantic intent of each slot, making similarity scores reflect what the prompt actually does rather than how it is literally written.
-
----
-
-## Improvements With More Time
-
-### Use post-scoring adjustment more aggressively
-
-The current category/layer adjustment (+0.05/-0.05) was tuned conservatively by hand. With a larger labeled dataset, a learned weight for each metadata signal (category, layer, prompt_id prefix) could be found via logistic regression on the labeled pairs — replacing hand-tuned constants with data-driven coefficients. This would also better handle cross-category pairs that are nonetheless genuine duplicates, as confirmed in the manual validation cases.
+## Future Improvements
 
 ### Train a domain-specific embedding model
 
 `text-embedding-3-small` is general-purpose. A model fine-tuned on contrastive pairs from this prompt library — using Multiple Negatives Ranking loss or Triplet Loss — would produce less score compression in the 0.55–0.70 band and cleaner separation between HIGH and MEDIUM pairs. Even a lightweight adapter layer fine-tuned on top of an existing model (using `sentence-transformers` SetFitModel approach) would be worth evaluating with the 30-pair labeled set as the training signal.
+
+### Use post-scoring adjustment
+
+Instead of tuning the category/layer adjustment (+0.05/-0.05) by hand, for a larger labeled dataset, a learned weight for each metadata signal (category, layer, prompt_id prefix) could be found via logistic regression on the labeled pairs — replacing hand-tuned constants with data-driven coefficients. This would also better handle cross-category pairs that are nonetheless genuine duplicates, as confirmed in the manual validation cases.
+
+### Use an LLM to generate merge suggestions
+
+The current merge suggestion is mechanical — it lists the union of template variables across cluster members and recommends consolidation. A more useful approach would pipe the full content of each duplicate prompt into an LLM (e.g. Claude or GPT-4) with instructions to produce a single unified prompt that preserves the intent of all versions, reconciles variable names, and retains the strongest phrasing from each. This would give authors a concrete draft to review rather than a list of variable names to reconcile manually.
+
+### Structured logging and metrics storage
+
+Operational data — embedding latencies, cluster counts per threshold, search hit rates, cache rebuild times — is currently only visible in stdout during the request lifecycle. Writing these metrics to a structured log file (JSON lines or similar) on each API call would enable post-hoc analysis: tracking how similarity distributions shift as the prompt library grows, comparing clustering results across threshold changes over time, and identifying slow embedding batches. This data would also feed into the automated evaluation system described below.
+
+### Automated evaluation pipeline
+
+Threshold tuning and clustering quality are currently validated by running eval scripts manually after code changes. A better approach would be a single `uv run evaluate` command that seeds the test prompts, runs the service, executes all eval suites, and produces a summary report with pass/fail thresholds. This could be integrated into CI so that any code change that degrades pair F1 below 99% or introduces over-merge cases is caught before merge.
+
+### User feedback collection
+
+The Streamlit UI currently displays results but provides no way to capture whether they were useful. Adding a thumbs-up/thumbs-down control on each search result and duplicate cluster card would create a lightweight feedback loop. Storing these ratings alongside the prompt pair and similarity score would build a growing labeled dataset that could replace the current 30-pair calibration set, inform threshold adjustments with real usage data, and surface prompt categories where the model consistently under- or over-scores.
 
 ---
 
 ## Assumptions Made
 
 - **Prompt library is static enough for batch embedding.** The service re-embeds on demand but does not stream updates. If prompts are edited at high frequency, `regenerate_all` would need to be triggered automatically on write.
-
-- **Category and layer metadata is reliable.** The post-scoring adjustment depends on correct category/layer labels. If these are inconsistently assigned in the source library, the adjustment could penalise genuine duplicates that happen to sit in different categories.
 
 - **The 30-pair evaluation set is a small baseline, not a definitive benchmark.** It was assembled in the interest of time to get a comparative signal across models and to establish a starting threshold. 30 pairs is sufficient to detect obvious model differences but too small to draw precise conclusions about threshold boundaries or recall rates. In practice, a labeled set of at least 100 pairs — covering more category combinations, edge cases, and writing styles — would be needed before treating the threshold as production-ready.
 
