@@ -446,7 +446,9 @@ Latency is dominated by the OpenAI API round-trip. Larger batches are more effic
 
 For current prompt library scale (hundreds to low thousands), a vector database adds operational complexity with no algorithmic benefit. Brute-force NumPy dot product is O(n) exact search — identical to `IndexFlatIP` in FAISS but with zero infrastructure overhead.
 
-SQLite is the single source of truth. Vectors are loaded into a NumPy matrix at startup and held in memory for zero-latency search. Migrate to a vector database (Pinecone, Weaviate, pgvector) when n exceeds ~50k prompts and query latency becomes a concern.
+SQLite is the single source of truth. Vectors are loaded into a NumPy matrix at startup and held in memory for zero-latency search. Each query request avoids SQLite reads by searching through the vector cache in memory.
+
+Migrate to a vector database (Pinecone, Weaviate, pgvector) when n exceeds ~50k prompts and query latency becomes a concern.
 
 ### Normalising template variables before embedding
 
