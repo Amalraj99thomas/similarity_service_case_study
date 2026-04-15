@@ -105,7 +105,7 @@ uv run prompt-similarity duplicates --threshold 0.85
 
 ```bash
 uv sync --extra ui
-uv run streamlit run prompt_similarity/streamlit_app.py
+uv run streamlit run src/prompt_similarity/streamlit_app.py
 ```
 
 ### Tests
