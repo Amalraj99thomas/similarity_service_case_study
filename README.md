@@ -43,8 +43,8 @@ Key capabilities:
 ### Installation
 
 ```bash
-git clone https://github.com/Amalraj99thomas/similarity_service_case_study.git
-cd similarity_service_case_study
+git clone https://github.com/Amalraj99thomas/similarity_service.git
+cd similarity_service
 
 uv sync
 ```
